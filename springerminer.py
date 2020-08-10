@@ -24,7 +24,7 @@ def get_ris_springer(url):
     try:
         ris_file = urllib.request.urlretrieve(ris_url, folderpath + ris_filename)
     except:
-        print('[Error] Unable to retrieve ' + ris_url)    
+        print('[Error] Unable to retrieve ' + ris_url)
     else:
         print('[Success] ' + ris_filename + ' saved')
 
