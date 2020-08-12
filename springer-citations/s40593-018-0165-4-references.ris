@@ -1,0 +1,603 @@
+TY  - CHAP
+AU  - Ayres, J.
+AU  - Flannick, J.
+AU  - Gehrke, J.
+AU  - Yiu, T.
+ED  - Hand, D.
+ED  - Keim, D.
+ED  - Ng, R.
+PY  - 2002
+DA  - 2002//
+TI  - Sequential pattern mining using a bitmap representation
+BT  - Proceedings of the eighth ACM SIGKDD international conference on knowledge discovery and data mining
+PB  - ACM
+CY  - New York
+UR  - https://doi.org/10.1145/775047.775109
+DO  - 10.1145/775047.775109
+ID  - Ayres2002
+ER  - 
+TY  - CHAP
+AU  - Azevedo, R.
+ED  - Mayer, R.
+PY  - 2014
+DA  - 2014//
+TI  - Multimedia learning of metacognitive strategies
+BT  - The Cambridge handbook of multimedia learning
+PB  - Cambridge University Press
+CY  - Cambridge
+UR  - https://doi.org/10.1017/CBO9781139547369.032
+DO  - 10.1017/CBO9781139547369.032
+ID  - Azevedo2014
+ER  - 
+TY  - CHAP
+AU  - Azevedo, R.
+AU  - Harley, J.
+AU  - Trevors, G.
+AU  - Duffy, M.
+AU  - Feyzi-Behnagh, R.
+AU  - Bouchet, F.
+AU  - Landis, R.
+ED  - Azevedo, R.
+ED  - Aleven, V.
+PY  - 2013
+DA  - 2013//
+TI  - Using trace data to examine the complex roles of cognitive, metacognitive, and emotional self-regulatory processes during learning with multi-agent systems
+BT  - International handbook of metacognition and learning technologies
+PB  - Springer
+CY  - Amsterdam
+UR  - https://doi.org/10.1007/978-1-4419-5546-3_28
+DO  - 10.1007/978-1-4419-5546-3_28
+ID  - Azevedo2013
+ER  - 
+TY  - CHAP
+AU  - Azevedo, R.
+AU  - Taub, M.
+AU  - Mudrick, N. V.
+ED  - Schunk, D. H.
+ED  - Greene, J. A.
+PY  - 2018
+DA  - 2018//
+TI  - Using multi-channel trace data to infer and foster self-regulated learning between humans and advanced learning technologies
+BT  - Handbook of self-regulation of learning and performance
+PB  - Routledge
+CY  - New York
+ID  - Azevedo2018
+ER  - 
+TY  - JOUR
+AU  - Baker, R. S. J. D.
+AU  - Yacef, K.
+PY  - 2009
+DA  - 2009//
+TI  - The state of educational data mining in 2009: A review and future visions
+JO  - Journal of Educational Data Mining.
+VL  - 1
+ID  - Baker2009
+ER  - 
+TY  - BOOK
+AU  - Baylor, A. L.
+AU  - Ryu, J.
+PY  - 2003
+DA  - 2003//
+TI  - The API (agent persona instrument) for assessing pedagogical agent persona. Proceedings of World Conference on Educational Multimedia, Hypermedia and Telecommunications, Honolulu, Hawaii, (pp. 448–451)
+PB  - AACE
+CY  - Norfolk
+ID  - Baylor2003
+ER  - 
+TY  - JOUR
+AU  - Biswas, G.
+AU  - Segedy, J. R.
+AU  - Bunchongchit, K.
+PY  - 2016
+DA  - 2016//
+TI  - From design to implementation to practice—A learning by teaching system: Betty’s brain
+JO  - International Journal of Artificial Intelligence in Education
+VL  - 26
+UR  - https://doi.org/10.1007/s40593-015-0057-9
+DO  - 10.1007/s40593-015-0057-9
+ID  - Biswas2016
+ER  - 
+TY  - CHAP
+AU  - Biswas, G.
+AU  - Baker, R. S.
+AU  - Paquette, L.
+ED  - Schunk, D. H.
+ED  - Greene, J. A.
+PY  - 2018
+DA  - 2018//
+TI  - Data mining methods for assessing self-regulated learning
+BT  - Handbook of self-regulation of learning and performance
+PB  - Routledge
+CY  - New York
+ID  - Biswas2018
+ER  - 
+TY  - CHAP
+AU  - Bondareva, D.
+AU  - Conati, C.
+AU  - Feyzi-Behnagh, R.
+AU  - Harley, J.
+AU  - Azevedo, R.
+AU  - Bouchet, F.
+ED  - Lane, C. H.
+ED  - Yacef, K.
+ED  - Mostow, J.
+ED  - Pavlik, P.
+PY  - 2013
+DA  - 2013//
+TI  - Inferring learning from gaze data during interaction with an environment to support self-regulated learning
+BT  - Proceedings of the 16th international conference on artificial intelligence in education—Lecture notes in artificial intelligence 7926
+PB  - Springer-Verlag
+CY  - Berlin
+ID  - Bondareva2013
+ER  - 
+TY  - JOUR
+AU  - Bouchet, F.
+AU  - Harley, J.
+AU  - Trevors, G.
+AU  - Azevedo, R.
+PY  - 2013
+DA  - 2013//
+TI  - Clustering and profiling students according to their interactions with an intelligent tutoring system fostering self-regulated learning
+JO  - Journal of Educational Data Mining
+VL  - 5
+ID  - Bouchet2013
+ER  - 
+TY  - JOUR
+AU  - Conati, C.
+AU  - Jaques, N.
+AU  - Muir, M.
+PY  - 2013
+DA  - 2013//
+TI  - Understanding attention to adaptive hints in educational games: An eye-tracking study
+JO  - International Journal of Artificial Intelligence in Education
+VL  - 23
+UR  - https://doi.org/10.1007/s40593-013-0002-8
+DO  - 10.1007/s40593-013-0002-8
+ID  - Conati2013
+ER  - 
+TY  - JOUR
+AU  - D’Mello, S. K.
+PY  - 2016
+DA  - 2016//
+TI  - Giving eyesight to the blind: Towards attention-aware AIED
+JO  - International Journal of Artificial Intelligence in Education
+VL  - 26
+UR  - https://doi.org/10.1007/s40593-016-0104-1
+DO  - 10.1007/s40593-016-0104-1
+ID  - D’Mello2016
+ER  - 
+TY  - JOUR
+AU  - D’Mello, S. K.
+AU  - Graesser, A. C.
+PY  - 2012
+DA  - 2012//
+TI  - Dynamics of affective states during complex learning
+JO  - Learning and Instruction
+VL  - 22
+UR  - https://doi.org/10.1016/j.learninstruc.2011.10.001
+DO  - 10.1016/j.learninstruc.2011.10.001
+ID  - D’Mello2012
+ER  - 
+TY  - JOUR
+AU  - D’Mello, S. K.
+AU  - Olney, A.
+AU  - Williams, C.
+AU  - Hays, P.
+PY  - 2012
+DA  - 2012//
+TI  - Gaze tutor: A gaze-reactive intelligent tutoring system
+JO  - International Journal of Human-Computer Studies
+VL  - 70
+UR  - https://doi.org/10.1016/j.ijhcs.2012.01.004
+DO  - 10.1016/j.ijhcs.2012.01.004
+ID  - D’Mello2012
+ER  - 
+TY  - JOUR
+AU  - Elliot, A. J.
+AU  - Murayama, K.
+PY  - 2008
+DA  - 2008//
+TI  - On the measurement of achievement goals: Critique, illustration, and application
+JO  - Journal of Educational Psychology
+VL  - 100
+UR  - https://doi.org/10.1037/0022-0663.100.3.613
+DO  - 10.1037/0022-0663.100.3.613
+ID  - Elliot2008
+ER  - 
+TY  - CHAP
+AU  - Fournier-Viger, P.
+AU  - Gomariz, A.
+AU  - Campos, M.
+AU  - Thomas, R.
+ED  - Tseng, V. S.
+ED  - Ho, T. B.
+ED  - Zhou, Z.
+ED  - Chen, A. L. P.
+ED  - Kao, H.
+PY  - 2014
+DA  - 2014//
+TI  - Fast vertical mining of sequential patterns using co-occurrence information
+BT  - Proceedings of the 18th Pacific-Asia conference on knowledge discovery and data mining
+PB  - Springer
+CY  - Cham
+UR  - https://doi.org/10.1007/978-3-319-06608-0_4
+DO  - 10.1007/978-3-319-06608-0_4
+ID  - Fournier-Viger2014
+ER  - 
+TY  - JOUR
+AU  - Gerjets, P.
+AU  - Kammener, Y.
+AU  - Werner, B.
+PY  - 2011
+DA  - 2011//
+TI  - Measuring spontaneous and instructed evaluation processes during web-search: Integrating concurrent think-aloud protocols and eye-tracking data
+JO  - Learning and Instruction
+VL  - 21
+UR  - https://doi.org/10.1016/j.learninstruc.2010.02.005
+DO  - 10.1016/j.learninstruc.2010.02.005
+ID  - Gerjets2011
+ER  - 
+TY  - JOUR
+AU  - Graesser, A. C.
+PY  - 2013
+DA  - 2013//
+TI  - Evolution of advanced learning technologies in the 21st century
+JO  - Theory Into Practice
+VL  - 52
+UR  - https://doi.org/10.1080/00405841.2013.795446
+DO  - 10.1080/00405841.2013.795446
+ID  - Graesser2013
+ER  - 
+TY  - JOUR
+AU  - Greene, J. A.
+AU  - Costa, L.
+AU  - Robertson, J.
+AU  - Pan, Y.
+AU  - Deekens, V. M.
+PY  - 2010
+DA  - 2010//
+TI  - Exploring relations among college students’ prior knowledge, implicit theories of intelligence, and self-regulated learning in a hypermedia environment
+JO  - Computers. & Education
+VL  - 55
+UR  - https://doi.org/10.1016/j.compedu.2010.04.013
+DO  - 10.1016/j.compedu.2010.04.013
+ID  - Greene2010
+ER  - 
+TY  - JOUR
+AU  - Gross, J. J.
+AU  - John, O. P.
+PY  - 2003
+DA  - 2003//
+TI  - Individual differences in two emotion regulation processes: Implications for affect, relationships, and well-being
+JO  - Journal of Personality and Social Psychology
+VL  - 85
+UR  - https://doi.org/10.1037/0022-3514.85.2.348
+DO  - 10.1037/0022-3514.85.2.348
+ID  - Gross2003
+ER  - 
+TY  - STD
+TI  - Harley, J. M., Taub, M., Azevedo, R., & Bouchet, F. (2017). “Let’s set up some subgoals”: Understanding human-pedagogical agent collaborations and their implications for learning and prompt and feedback compliance. IEEE Transactions on Learning Technologies PP(99): 1–1.
+ID  - ref21
+ER  - 
+TY  - CHAP
+PY  - 2016
+DA  - 2016//
+TI  - Attention tool (version 6.2) [computer software]
+BT  - Boston: iMotions Inc
+ID  - ref22
+ER  - 
+TY  - JOUR
+AU  - Inglis, M.
+AU  - Alcock, L.
+PY  - 2012
+DA  - 2012//
+TI  - Expert and novice approaches to reading mathematical proofs
+JO  - Journal for Research in Mathematics Education
+VL  - 43
+UR  - https://doi.org/10.5951/jresematheduc.43.4.0358
+DO  - 10.5951/jresematheduc.43.4.0358
+ID  - Inglis2012
+ER  - 
+TY  - CHAP
+AU  - Jaques, N.
+AU  - Conati, C.
+AU  - Harley, J.
+AU  - Azevedo, R.
+ED  - Trausan-Matu, S.
+ED  - Boyer, K. E.
+ED  - Crosby, M.
+ED  - Panourgia, K.
+PY  - 2014
+DA  - 2014//
+TI  - Predicting affect from gaze data during interaction with an intelligent tutoring system
+BT  - Proceedings of the 12th international conference on intelligent tutoring systems—Lecture notes in computer science 8474
+PB  - Springer
+CY  - Amsterdam
+ID  - Jaques2014
+ER  - 
+TY  - JOUR
+AU  - Kinnebrew, J. S.
+AU  - Loretz, K. M.
+AU  - Biswas, G.
+PY  - 2013
+DA  - 2013//
+TI  - A contextualized, differential sequence mining method to derive students’ learning behavior patterns
+JO  - Journal of Educational Data Mining
+VL  - 5
+ID  - Kinnebrew2013
+ER  - 
+TY  - CHAP
+AU  - Lallé, S.
+AU  - Taub, M.
+AU  - Mudrick, N. V.
+AU  - Conati, C.
+AU  - Azevedo, R.
+ED  - André, E.
+ED  - Baker, R.
+ED  - Hu, X.
+ED  - Rodrigo, M. M. T.
+ED  - Boulay, B.
+PY  - 2017
+DA  - 2017//
+TI  - The impact of student individual differences and visual attention to pedagogical agents during learning with MetaTutor
+BT  - Proceedings of the 18th international conference on artificial intelligence in education (AIED 2017)—Lecture notes in computer science
+PB  - Springer
+CY  - The Netherlands
+ID  - Lallé2017
+ER  - 
+TY  - CHAP
+AU  - Lester, J. C.
+AU  - Rowe, J.
+AU  - Mott, B. W.
+ED  - Mouza, C.
+ED  - Lavigne, N.
+PY  - 2013
+DA  - 2013//
+TI  - Narrative-centered learning environments: A story-centric approach to educational games
+BT  - Emerging technologies for the classroom: A learning sciences perspective
+PB  - Springer
+CY  - Amsterdam
+UR  - https://doi.org/10.1007/978-1-4614-4696-5_15
+DO  - 10.1007/978-1-4614-4696-5_15
+ID  - Lester2013
+ER  - 
+TY  - JOUR
+AU  - Mason, L.
+AU  - Scheiter, K.
+AU  - Tornatora, M. C.
+PY  - 2017
+DA  - 2017//
+TI  - Using eye movements to model the sequence of text—Picture processing for multimedia comprehension
+JO  - Journal of Computer Assisted Learning
+VL  - 33
+UR  - https://doi.org/10.1111/jcal.12191
+DO  - 10.1111/jcal.12191
+ID  - Mason2017
+ER  - 
+TY  - JOUR
+AU  - Moos, D.
+PY  - 2013
+DA  - 2013//
+TI  - Examining hypermedia learning: The role of cognitive load and self-regulated learning
+JO  - Journal of Educational Multimedia and Hypermedia
+VL  - 22
+ID  - Moos2013
+ER  - 
+TY  - JOUR
+AU  - Moos, D. C.
+AU  - Azevedo, R.
+PY  - 2008
+DA  - 2008//
+TI  - Self-regulated learning with hypermedia: The role of prior domain knowledge
+JO  - Contemporary Educational Psychology
+VL  - 33
+UR  - https://doi.org/10.1016/j.cedpsych.2007.03.001
+DO  - 10.1016/j.cedpsych.2007.03.001
+ID  - Moos2008
+ER  - 
+TY  - CHAP
+AU  - Nietfeld, J. L.
+ED  - Schunk, D. H.
+ED  - Greene, J. A.
+PY  - 2018
+DA  - 2018//
+TI  - The role of self-regulated learning in digital games
+BT  - Handbook of self-regulation of learning and performance
+PB  - Routledge
+CY  - New York
+ID  - Nietfeld2018
+ER  - 
+TY  - JOUR
+AU  - Paas, F.
+AU  - Renkl, A.
+AU  - Sweller, J.
+PY  - 2004
+DA  - 2004//
+TI  - Cognitive load theory: Instructional implications of the interaction between information structures and cognitive architecture
+JO  - Instructional Science
+VL  - 32
+UR  - https://doi.org/10.1023/B:TRUC.0000021806.17516.d0
+DO  - 10.1023/B:TRUC.0000021806.17516.d0
+ID  - Paas2004
+ER  - 
+TY  - JOUR
+AU  - Pekrun, R.
+AU  - Goetz, T.
+AU  - Frenzel, A.
+AU  - Barchfeld, P.
+AU  - Perry, R.
+PY  - 2011
+DA  - 2011//
+TI  - Measuring emotions in students’ learning and performance: The achievement emotions questionnaire (AEQ)
+JO  - Contemporary Educational Psychology
+VL  - 36
+UR  - https://doi.org/10.1016/j.cedpsych.2010.10.002
+DO  - 10.1016/j.cedpsych.2010.10.002
+ID  - Pekrun2011
+ER  - 
+TY  - JOUR
+AU  - Rosenberg, M.
+AU  - Schooler, C.
+AU  - Schoenbach, C.
+PY  - 1989
+DA  - 1989//
+TI  - Self-esteem and adolescent problems: Modeling reciprocal effects
+JO  - American Sociological Review
+VL  - 54
+UR  - https://doi.org/10.2307/2095720
+DO  - 10.2307/2095720
+ID  - Rosenberg1989
+ER  - 
+TY  - JOUR
+AU  - Rosenberg, M.
+AU  - Schooler, C.
+AU  - Schoenbach, C.
+AU  - Rosenberg, F.
+PY  - 1995
+DA  - 1995//
+TI  - Global self-esteem and specific self-esteem: Different concepts, different outcomes
+JO  - American Sociological Review
+VL  - 60
+UR  - https://doi.org/10.2307/2096350
+DO  - 10.2307/2096350
+ID  - Rosenberg1995
+ER  - 
+TY  - CHAP
+AU  - Salvucci, D. D.
+AU  - Goldberg, J. H.
+ED  - Duchowski, A. T.
+PY  - 2000
+DA  - 2000//
+TI  - Identifying fixations and saccades in eye-tracking protocols
+BT  - Eye-tracking research and application
+PB  - ACM Press
+CY  - Palm Beach Gardens
+ID  - Salvucci2000
+ER  - 
+TY  - CHAP
+AU  - Scheiter, K.
+AU  - Eitel, A.
+ED  - Was, C. A.
+ED  - Sansosti, F. J.
+ED  - Morris, B.
+PY  - 2016
+DA  - 2016//
+TI  - The use of eye tracking as a research and instructional tool in multimedia learning
+BT  - Eye-tracking technology applications in educational research
+PB  - IGI Global
+CY  - Hershey
+ID  - Scheiter2016
+ER  - 
+TY  - STD
+TI  - SMI Experiment Center 3.4.165 [Apparatus and Software]. (2014). Boston: SensoMotoric Instruments.
+ID  - ref38
+ER  - 
+TY  - CHAP
+AU  - Taub, M.
+AU  - Azevedo, R.
+ED  - Micarelli, A.
+ED  - Stamper, J.
+ED  - Panourgia, K.
+PY  - 2016
+DA  - 2016//
+TI  - Using eye-tracking to determine the impact of prior knowledge on self-regulated learning with an adaptive hypermedia- learning environment?
+BT  - Proceedings of the 13th international conference on intelligent tutoring systems—Lecture notes in computer science 9684
+PB  - Springer
+CY  - The Netherlands
+ID  - Taub2016
+ER  - 
+TY  - JOUR
+AU  - Taub, M.
+AU  - Azevedo, R.
+AU  - Bouchet, F.
+AU  - Khosravifar, B.
+PY  - 2014
+DA  - 2014//
+TI  - Can the use of cognitive and metacognitive self-regulated learning strategies be predicted by learners’ levels of prior knowledge in hypermedia-learning environments?
+JO  - Computers in Human Behavior
+VL  - 39
+UR  - https://doi.org/10.1016/j.chb.2014.07.018
+DO  - 10.1016/j.chb.2014.07.018
+ID  - Taub2014
+ER  - 
+TY  - JOUR
+AU  - Trevors, G.
+AU  - Duffy, M.
+AU  - Azevedo, R.
+PY  - 2014
+DA  - 2014//
+TI  - Note-taking within MetaTutor: Interactions between an intelligent tutoring system and prior knowledge on note-taking and learning
+JO  - Educational Technology Research & Development
+VL  - 62
+UR  - https://doi.org/10.1007/s11423-014-9343-8
+DO  - 10.1007/s11423-014-9343-8
+ID  - Trevors2014
+ER  - 
+TY  - CHAP
+AU  - Winne, P. H.
+ED  - Schunk, D. H.
+ED  - Greene, J. A.
+PY  - 2018
+DA  - 2018//
+TI  - Cognition and metacognition within self-regulated learning
+BT  - Handbook of self-regulation of learning and performance
+PB  - Routledge
+CY  - New York
+ID  - Winne2018
+ER  - 
+TY  - CHAP
+AU  - Winne, P.
+AU  - Azevedo, R.
+ED  - Sawyer, K.
+PY  - 2014
+DA  - 2014//
+TI  - Metacognition
+BT  - Cambridge handbook of the learning sciences
+PB  - Cambridge University Press
+CY  - Cambridge
+UR  - https://doi.org/10.1017/CBO9781139519526.006
+DO  - 10.1017/CBO9781139519526.006
+ID  - Winne2014
+ER  - 
+TY  - CHAP
+AU  - Winne, P.
+AU  - Hadwin, A.
+ED  - Hacker, D.
+ED  - Dunlosky, J.
+ED  - Graesser, A.
+PY  - 1998
+DA  - 1998//
+TI  - Studying as self-regulated learning
+BT  - Metacognition in educational theory and practice
+PB  - Erlbaum
+CY  - Mahwah
+ID  - Winne1998
+ER  - 
+TY  - CHAP
+AU  - Winne, P.
+AU  - Hadwin, A.
+ED  - Schunk, D.
+ED  - Zimmerman, B.
+PY  - 2008
+DA  - 2008//
+TI  - The weave of motivation and self-regulated learning
+BT  - Motivation and self-regulated learning: Theory, research, and applications
+PB  - Erlbaum
+CY  - Mahwah
+ID  - Winne2008
+ER  - 
+TY  - CHAP
+AU  - Witherspoon, A.
+AU  - Azevedo, R.
+AU  - D’Mello, S.
+ED  - Woolf, B.
+ED  - Aimeur, E.
+ED  - Nkambou, R.
+ED  - Lajoie, S.
+PY  - 2008
+DA  - 2008//
+TI  - The dynamics of self-regulatory processes within self- and externally-regulated learning episodes
+BT  - Proceedings of the international conference on intelligent tutoring systems—Lecture notes in computer science 5091
+PB  - Springer
+CY  - Berlin
+ID  - Witherspoon2008
+ER  - 

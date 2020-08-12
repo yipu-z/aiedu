@@ -1,0 +1,397 @@
+TY  - STD
+TI  - Alexandron, G., Ruipérez-Valiente, J.A., Pritchard, D.E. (2015a). Evidence of MOOC students using multiple accounts to harvest correct answers. Learning with MOOCs II, 2015.
+ID  - ref1
+ER  - 
+TY  - STD
+TI  - Alexandron, G., Zhou, Q., Pritchard, D. (2015b). Discovering the pedagogical resources that assist students in answering questions correctly – a machine learning approach. In Proceedings of the 8th international conference on educational data mining (pp. 520–523).
+ID  - ref2
+ER  - 
+TY  - JOUR
+AU  - Alexandron, G.
+AU  - Ruipėrez-Valiente, J. A.
+AU  - Chen, Z.
+AU  - Muñoz-Merino, P. J.
+AU  - Pritchard, D. E.
+PY  - 2017
+DA  - 2017//
+TI  - Copying@Scale using harvesting accounts for collecting correct answers in a MOOC
+JO  - Communication Education
+VL  - 108
+ID  - Alexandron2017
+ER  - 
+TY  - STD
+TI  - Alexandron, G., Ruipérez-Valiente, J.A., Lee, S., Pritchard, D.E. (2018). Evaluating the robustness of learning analytics results against fake learners. In Proceedings of the thirteenth European conference on technology enhanced learning: Springer.
+ID  - ref4
+ER  - 
+TY  - STD
+TI  - Alexandron, G., Ruipérez-Valiente, J.A., Pritchard, D.E. (2019). Towards a general purpose anomaly detection method to identify cheaters in massive open online courses. In Proceedings of the 12th international conference on educational data mining.
+ID  - ref5
+ER  - 
+TY  - JOUR
+AU  - Baker, R.
+AU  - Walonoski, J.
+AU  - Heffernan, N.
+AU  - Roll, I.
+AU  - Corbett, A.
+AU  - Koedinger, K.
+PY  - 2008
+DA  - 2008//
+TI  - Why students engage in “gaming the system” behavior in interactive learning environments
+JO  - Journal of Interactive Learning Research
+VL  - 19
+ID  - Baker2008
+ER  - 
+TY  - STD
+TI  - Champaign, J., Colvin, K.F., Liu, A., Fredericks, C., Seaton, D., Pritchard, D.E. (2014). Correlating skill and improvement in 2 MOOCs with a student’s time on tasks. In Proceedings of the first ACM conference on Learning @ scale conference - L@S ’14, (March): 11–20.
+ID  - ref7
+ER  - 
+TY  - JOUR
+AU  - Chen, Z.
+AU  - Chudzicki, C.
+AU  - Palumbo, D.
+AU  - Alexandron, G.
+AU  - Choi, Y. -. J.
+AU  - Zhou, Q.
+AU  - Pritchard, D. E.
+PY  - 2016
+DA  - 2016//
+TI  - Researching for better instructional methods using AB experiments in MOOCs: results and challenges
+JO  - Research and Practice in Technology Enhanced Learning
+VL  - 11
+UR  - https://doi.org/10.1186/s41039-016-0034-4
+DO  - 10.1186/s41039-016-0034-4
+ID  - Chen2016
+ER  - 
+TY  - STD
+TI  - De Ayala, R. (2009). The theory and practice of item response theory. Methodology in the social sciences. Guilford Publications.
+ID  - ref9
+ER  - 
+TY  - JOUR
+AU  - Donders, A. R. T.
+AU  - Heijden, G. J.
+AU  - Stijnen, T.
+AU  - Moons, K. G.
+PY  - 2006
+DA  - 2006//
+TI  - A gentle introduction to imputation of missing values
+JO  - Journal of Clinical Epidemiology
+VL  - 59
+UR  - https://doi.org/10.1016/j.jclinepi.2006.01.014
+DO  - 10.1016/j.jclinepi.2006.01.014
+ID  - Donders2006
+ER  - 
+TY  - STD
+TI  - Du, X., Duivesteijn, W., Klabbers, M., Pechenizkiy, M. (2018). Elba: exceptional learning behavior analysis. In Educational data mining (pp. 312–318).
+ID  - ref11
+ER  - 
+TY  - STD
+TI  - Gardner, J., Brooks, C., Andres, J.M.L., Baker, R. (2018). Morf: a framework for MOOC predictive modeling and replication at scale. arXiv:1801.05236.
+UR  - http://arXiv.org/abs/1801.05236
+ID  - ref12
+ER  - 
+TY  - JOUR
+AU  - Goldhammer, F.
+PY  - 2015
+DA  - 2015//
+TI  - Measuring ability, speed, or both? challenges, psychometric solutions, and what can be gained from experimental control
+JO  - Measurement: Interdisciplinary Research and Perspectives
+VL  - 13
+ID  - Goldhammer2015
+ER  - 
+TY  - BOOK
+AU  - Hastie, T.
+AU  - Tibshirani, R.
+AU  - Friedman, J.
+PY  - 2001
+DA  - 2001//
+TI  - The elements of statistical learning. Springer series in statistics
+PB  - Springer
+CY  - New York
+ID  - Hastie2001
+ER  - 
+TY  - JOUR
+AU  - Hodge, V.
+AU  - Austin, J.
+PY  - 2004
+DA  - 2004//
+TI  - A survey of outlier detection methodologies
+JO  - Artificial Intelligence Review
+VL  - 22
+UR  - https://doi.org/10.1023/B:AIRE.0000045502.10941.a9
+DO  - 10.1023/B:AIRE.0000045502.10941.a9
+ID  - Hodge2004
+ER  - 
+TY  - JOUR
+AU  - Kiernan, M.
+AU  - Kraemer, H. C.
+AU  - Winkleby, M. A.
+AU  - King, A. C.
+AU  - Taylor, C. B.
+PY  - 2001
+DA  - 2001//
+TI  - Do logistic regression and signal detection identify different subgroups at risk? implications for the design of tailored interventions
+JO  - Psychological Methods
+VL  - 6
+UR  - https://doi.org/10.1037/1082-989X.6.1.35
+DO  - 10.1037/1082-989X.6.1.35
+ID  - Kiernan2001
+ER  - 
+TY  - STD
+TI  - Kim, J., Guo, P.J., Cai, C.J., Li, S.-W.D., Gajos, K.Z., Miller, R.C. (2014a). Data-driven interaction techniques for improving navigation of educational videos. In Proceedings of the 27th annual ACM symposium on user interface software and technology - UIST’14 (pp. 563–572).
+ID  - ref17
+ER  - 
+TY  - STD
+TI  - Kim, J., Guo, P.J., Seaton, D.T., Mitros, P., Gajos, K.Z., Miller, R.C. (2014b). Understanding in-video dropouts and interaction peaks in online lecture videos.
+ID  - ref18
+ER  - 
+TY  - STD
+TI  - Koedinger, K.R., Mclaughlin, E.A., Kim, J., Jia, J.Z., Bier, N.L. (2015). Learning is not a spectator sport doing is better than watching for learning from a MOOC, pp. 111–120.
+ID  - ref19
+ER  - 
+TY  - STD
+TI  - Krause, J., Perer, A., Ng, K. (2016). Interacting with predictions: visual inspection of black-box machine learning models. In Proceedings of the 2016 CHI conference on human factors in computing systems (pp. 5686–5697): ACM.
+ID  - ref20
+ER  - 
+TY  - JOUR
+AU  - Kyllonen, P.
+AU  - Zu, J.
+PY  - 2016
+DA  - 2016//
+TI  - Use of response time for measuring cognitive ability
+JO  - Journal of Intelligence
+VL  - 4
+UR  - https://doi.org/10.3390/jintelligence4040014
+DO  - 10.3390/jintelligence4040014
+ID  - Kyllonen2016
+ER  - 
+TY  - JOUR
+AU  - Lazer, D.
+AU  - Kennedy, R.
+AU  - King, G.
+AU  - Vespignani, A.
+PY  - 2014
+DA  - 2014//
+TI  - The parable of google flu: traps in big data analysis
+JO  - Science
+VL  - 343
+UR  - https://doi.org/10.1126/science.1248506
+DO  - 10.1126/science.1248506
+ID  - Lazer2014
+ER  - 
+TY  - JOUR
+AU  - Luna, J. M.
+AU  - Castro, C.
+AU  - Romero, C.
+PY  - 2017
+DA  - 2017//
+TI  - Mdm tool: a data mining framework integrated into moodle
+JO  - Computer Applications in Engineering Education
+VL  - 25
+UR  - https://doi.org/10.1002/cae.21782
+DO  - 10.1002/cae.21782
+ID  - Luna2017
+ER  - 
+TY  - STD
+TI  - MacHardy, Z., & Pardos, Z.A. (2015). Toward the evaluation of educational videos using bayesian knowledge tracing and big data. In Proceedings of the second (2015) ACM conference on learning @ scale, L@S ’15 (pp. 347–350): ACM.
+ID  - ref24
+ER  - 
+TY  - STD
+TI  - MacKinnon, J.G. (2009). Bootstrap hypothesis testing, chapter 6, pp. 183–213. John Wiley & Sons, Ltd.
+ID  - ref25
+ER  - 
+TY  - JOUR
+AU  - Meyer, J. P.
+AU  - Zhu, S.
+PY  - 2013
+DA  - 2013//
+TI  - Fair and equitable measurement of student learning in moocs: an introduction to item response theory, scale linking, and score equating
+JO  - Research & Practice in Assessment
+VL  - 8
+ID  - Meyer2013
+ER  - 
+TY  - JOUR
+AU  - Müller, O.
+AU  - Junglas, I.
+AU  - Brocke, J. V.
+AU  - Debortoli, S.
+PY  - 2016
+DA  - 2016//
+TI  - Utilizing big data analytics for information systems research: challenges, promises and guidelines
+JO  - European Journal of Information Systems
+VL  - 25
+UR  - https://doi.org/10.1057/ejis.2016.2
+DO  - 10.1057/ejis.2016.2
+ID  - Müller2016
+ER  - 
+TY  - JOUR
+AU  - Northcutt, C. G.
+AU  - Ho, A. D.
+AU  - Chuang, I. L.
+PY  - 2016
+DA  - 2016//
+TI  - Detecting and preventing “multiple-account” cheating in massive open online courses
+JO  - Computers in Education
+VL  - 100
+UR  - https://doi.org/10.1016/j.compedu.2016.04.008
+DO  - 10.1016/j.compedu.2016.04.008
+ID  - Northcutt2016
+ER  - 
+TY  - STD
+TI  - O’Neil, C. (2017). Weapons of math destruction: how big data increases inequality and threatens democracy. Broadway Books.
+ID  - ref29
+ER  - 
+TY  - STD
+TI  - Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. Science, 349(6251). ISSN 0036-8075.
+ID  - ref30
+ER  - 
+TY  - STD
+TI  - Pardo, A., Mirriahi, N., Martinez-Maldonado, R., Jovanovic, J., Dawson, S., Gašević, D. (2016). Generating actionable predictive models of academic performance. In Proceedings of the sixth international conference on learning analytics & knowledge (pp. 474–478): ACM.
+ID  - ref31
+ER  - 
+TY  - STD
+TI  - Pardos, Z.A., Tang, S., Davis, D., Le, C.V. (2017). Enabling real-time adaptivity in MOOCs with a personalized next-step recommendation framework. In Proceedings of the fourth (2017) ACM conference on learning @ scale - L@S ’17. ISBN 9781450344500. https://doi.org/10.1145/3051457.3051471.
+ID  - ref32
+ER  - 
+TY  - CHAP
+AU  - Perez, S. a. r. a. h.
+AU  - Massey-Allard, J. o. n. a. t. h. a. n.
+AU  - Butler, D. e. b. o. r. a. h.
+AU  - Ives, J. o. s. s.
+AU  - Bonn, D. o. u. g.
+AU  - Yee, N. i. k. k. i.
+AU  - Roll, I. d. o.
+PY  - 2017
+DA  - 2017//
+TI  - Identifying Productive Inquiry in Virtual Labs Using Sequence Mining
+BT  - Lecture Notes in Computer Science
+PB  - Springer International Publishing
+CY  - Cham
+ID  - Perez2017
+ER  - 
+TY  - STD
+TI  - Qiu, J., Tang, J., Liu, T. X., Gong, J., Zhang, C., Zhang, Q., Xue, Y. (2016). Modeling and predicting learning behavior in moocs. In Proceedings of the ninth ACM international conference on web search and data mining (pp. 93–102): ACM.
+ID  - ref34
+ER  - 
+TY  - JOUR
+AU  - Reich, J.
+AU  - Ruipérez-Valiente, J. A.
+PY  - 2019
+DA  - 2019//
+TI  - The MOOC pivot
+JO  - Science
+VL  - 363
+UR  - https://doi.org/10.1126/science.aav7958
+DO  - 10.1126/science.aav7958
+ID  - Reich2019
+ER  - 
+TY  - JOUR
+AU  - Romero, C. r. i. s. t. ó. b. a. l.
+AU  - Ventura, S. e. b. a. s. t. i. á. n.
+PY  - 2016
+DA  - 2016//
+TI  - Educational data science in massive open online courses
+JO  - Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery
+VL  - 7
+ID  - Romero2016
+ER  - 
+TY  - STD
+TI  - Rosen, Y., Rushkin, I., Ang, A., Federicks, C., Tingley, D., Blink, M.J. (2017). Designing adaptive assessments in MOOCs. In Proceedings of the fourth (2017) ACM conference on learning @ scale, L@S ’17. ISBN 978-1-4503-4450-0 (pp. 233–236).
+ID  - ref37
+ER  - 
+TY  - STD
+TI  - Ruipérez-Valiente, J.A., Alexandron, G., Chen, Z., Pritchard, D.E. (2016). Using multiple accounts for harvesting solutions in MOOCs. In Proceedings of the third (2016) ACM conference on learning @ scale - L@S ’16 (pp. 63–70).
+ID  - ref38
+ER  - 
+TY  - STD
+TI  - Ruipérez-Valiente, J.A., Joksimović, S., Kovanović, V., Gašević, D., Muñoz Merino, P.J., Delgado Kloos, C. (2017a). A data-driven method for the detection of close submitters in online learning environments. In Proceedings of the 26th international conference on world wide web companion (pp. 361–368).
+ID  - ref39
+ER  - 
+TY  - JOUR
+AU  - Ruipérez-Valiente, J. A.
+AU  - Muñoz-Merino, P. J.
+AU  - Alexandron, G.
+AU  - Pritchard, D. E.
+PY  - 2017
+DA  - 2017//
+TI  - Using machine learning to detect ‘multiple-account’ cheating and analyze the influence of student and problem features
+JO  - IEEE Transactions on Learning Technologies
+VL  - 14
+ID  - Ruipérez-Valiente2017
+ER  - 
+TY  - JOUR
+AU  - Ruipérez-Valiente, J. A.
+AU  - Muñoz-Merino, P. J.
+AU  - Gascón-Pinedo, J. A.
+AU  - Kloos, C. D.
+PY  - 2017
+DA  - 2017//
+TI  - Scaling to massiveness with ANALYSE: a learning analytics tool for Open edX
+JO  - IEEE Transactions on Human-Machine Systems
+VL  - 47
+UR  - https://doi.org/10.1109/THMS.2016.2630420
+DO  - 10.1109/THMS.2016.2630420
+ID  - Ruipérez-Valiente2017
+ER  - 
+TY  - BOOK
+AU  - Saltelli, A.
+AU  - Chan, K.
+AU  - Scott, E. M.
+PY  - 2000
+DA  - 2000//
+TI  - Sensitivity analysis, Vol. 1
+PB  - Wiley
+CY  - New York
+ID  - Saltelli2000
+ER  - 
+TY  - STD
+TI  - Seshia, S.A., & Sadigh, D. (2016). Towards verified artificial intelligence. CoRR, arXiv:1606.08514, .
+UR  - http://arXiv.org/abs/1606.08514
+ID  - ref43
+ER  - 
+TY  - JOUR
+AU  - Siemens, G.
+PY  - 2013
+DA  - 2013//
+TI  - Learning analytics: the emergence of a discipline
+JO  - American Behavioral Scientist
+VL  - 57
+UR  - https://doi.org/10.1177/0002764213498851
+DO  - 10.1177/0002764213498851
+ID  - Siemens2013
+ER  - 
+TY  - STD
+TI  - Silver, N. (2012). The signal and the noise: why so many predictions fail–but some don’t. Penguin.
+ID  - ref45
+ER  - 
+TY  - STD
+TI  - U.S. Department of Education, Office of Educational Technology. (2012). Enhancing teaching and learning through educational data mining and learning analytics: an issue brief.
+ID  - ref46
+ER  - 
+TY  - JOUR
+AU  - Zee, T.
+AU  - Reich, J.
+PY  - 2018
+DA  - 2018//
+TI  - Open education science
+JO  - AERA Open
+VL  - 4
+ID  - Zee2018
+ER  - 
+TY  - JOUR
+AU  - Xing, W.
+AU  - Chen, X.
+AU  - Stein, J.
+AU  - Marcinkowski, M.
+PY  - 2016
+DA  - 2016//
+TI  - Temporal predication of dropouts in moocs Reaching the low hanging fruit through stacking generalization
+JO  - Comput. Hum. Behav.
+VL  - 58
+UR  - https://doi.org/10.1016/j.chb.2015.12.007
+DO  - 10.1016/j.chb.2015.12.007
+ID  - Xing2016
+ER  - 
+TY  - STD
+TI  - Yudelson, M., Fancsali, S., Ritter, S., Berman, S., Nixon, T., Joshi, A. (2014). Better data beats big data. In Educational data mining 2014.
+ID  - ref49
+ER  - 

@@ -1,0 +1,420 @@
+TY  - CHAP
+AU  - Aleven, V.
+AU  - Koedinger, K. R.
+PY  - 2000
+DA  - 2000//
+TI  - The need for tutorial dialog to support self-explanation
+BT  - Building dialogue systems for tutorial applications, papers of the 2000 AAAI fall symposium
+ID  - Aleven2000
+ER  - 
+TY  - JOUR
+AU  - Aleven, V. A.
+AU  - Koedinger, K. R.
+PY  - 2002
+DA  - 2002//
+TI  - An effective metacognitive strategy: Learning by doing and explaining with a computer-based cognitive tutor
+JO  - Cognitive Science
+VL  - 26
+UR  - https://doi.org/10.1207/s15516709cog2602_1
+DO  - 10.1207/s15516709cog2602_1
+ID  - Aleven2002
+ER  - 
+TY  - STD
+TI  - Aleven, V., Ogan, A., Popescu, O., Torrey, C., & Koedinger, K. (2004). Evaluating the effectiveness of a tutorial dialogue system for self-explanation. In International conference on intelligent tutoring systems (pp. 443–454). Springer, Berlin, Heidelberg.
+ID  - ref3
+ER  - 
+TY  - JOUR
+AU  - Anderson, J. o. h. n. R.
+PY  - 1982
+DA  - 1982//
+TI  - Acquisition of cognitive skill
+JO  - Psychological Review
+VL  - 89
+UR  - https://doi.org/10.1037/0033-295X.89.4.369
+DO  - 10.1037/0033-295X.89.4.369
+ID  - Anderson1982
+ER  - 
+TY  - JOUR
+AU  - Berthold, K.
+AU  - Eysink, T. H.
+AU  - Renkl, A.
+PY  - 2009
+DA  - 2009//
+TI  - Assisting self-explanation prompts are more effective than open prompts when learning with multiple representations
+JO  - Instructional Science
+VL  - 37
+UR  - https://doi.org/10.1007/s11251-008-9051-z
+DO  - 10.1007/s11251-008-9051-z
+ID  - Berthold2009
+ER  - 
+TY  - JOUR
+AU  - Boticki, I.
+AU  - Barisic, A.
+AU  - Martin, S.
+AU  - Drljevic, N.
+PY  - 2013
+DA  - 2013//
+TI  - Teaching and learning computer science sorting algorithms with mobile devices: A case study
+JO  - Computer Applications in Engineering Education
+VL  - 21
+UR  - https://doi.org/10.1002/cae.21561
+DO  - 10.1002/cae.21561
+ID  - Boticki2013
+ER  - 
+TY  - JOUR
+AU  - Chi, M. T.
+PY  - 2000
+DA  - 2000//
+TI  - Self-explaining expository texts: The dual processes of generating inferences and repairing mental models
+JO  - Advances in instructional psychology
+VL  - 5
+ID  - Chi2000
+ER  - 
+TY  - JOUR
+AU  - Chi, M. T.
+AU  - Wylie, R.
+PY  - 2014
+DA  - 2014//
+TI  - The ICAP framework: Linking cognitive engagement to active learning outcomes
+JO  - Educational Psychologist
+VL  - 49
+UR  - https://doi.org/10.1080/00461520.2014.965823
+DO  - 10.1080/00461520.2014.965823
+ID  - Chi2014
+ER  - 
+TY  - JOUR
+AU  - Chi, M. T.
+AU  - Bassok, M.
+AU  - Lewis, M. W.
+AU  - Reimann, P.
+AU  - Glaser, R.
+PY  - 1989
+DA  - 1989//
+TI  - Self-explanations: How students study and use examples in learning to solve problems
+JO  - Cognitive Science
+VL  - 13
+UR  - https://doi.org/10.1207/s15516709cog1302_1
+DO  - 10.1207/s15516709cog1302_1
+ID  - Chi1989
+ER  - 
+TY  - JOUR
+AU  - Chi, M. T.
+AU  - Leeuw, N.
+AU  - Chiu, M. H.
+AU  - LaVancher, C.
+PY  - 1994
+DA  - 1994//
+TI  - Eliciting self-explanations improves understanding
+JO  - Cognitive Science
+VL  - 18
+ID  - Chi1994
+ER  - 
+TY  - STD
+TI  - Denny, P., Luxton-Reilly, A., & Simon, B. (2008). Evaluating a new exam question: Parsons problems. In Proc. 4thInt. workshop on computing education research (pp. 113–124). ACM.
+ID  - ref11
+ER  - 
+TY  - STD
+TI  - Ericson, B. J., Margulieux, L. E., & Rick, J. (2017). Solving Parsons problems versus fixing and writing code. In Proc.17thKoli Calling Int. Conf. Computing Education Research (pp. 20–29). ACM.
+ID  - ref12
+ER  - 
+TY  - STD
+TI  - Fabic, G., Mitrovic, A., & Neshatian, K. (2016a). Towards a Mobile Python tutor: Understanding differences in strategies used by novices and experts. In Proc. 13thInt. Conf. Intelligent tutoring systems (pp. 447–448). Springer.
+ID  - ref13
+ER  - 
+TY  - STD
+TI  - Fabic, G., Mitrovic, A., & Neshatian, K. (2016b) Investigating strategies used by novice and expert users to solve Parson’s problem in a mobile Python tutor. Proc. 9thWorkshop on Technology Enhanced Learning by Posing/Solving Problems/Questions PQTEL 2016, pp. 434–444, APSCE.
+ID  - ref14
+ER  - 
+TY  - STD
+TI  - Fabic, G., Mitrovic A., & Neshatian, K. (2017a) A comparison of different types of learning activities in a mobile Python tutor. Proc. 25thInternational Conference on Computers in Education, (pp. 604–613).
+ID  - ref15
+ER  - 
+TY  - STD
+TI  - Fabic, G.., Mitrovic, A., & Neshatian, K. (2017b). Investigating the effectiveness of menu-based self-explanation prompts in a mobile Python tutor. In: E. Andre, R. Baker, X. Hu, M. Rodrigo, B. du Boulay (Eds.), Proc. 18thInternational Conference on Artificial Intelligence in Education (pp. 498–501). Springer, Cham.
+ID  - ref16
+ER  - 
+TY  - STD
+TI  - Fabic, G. V. F., Mitrovic, A., & Neshatian, K. (2018a). Adaptive problem selection in a Mobile Python tutor. In Adjunct Publication of the 26th Conference on User Modeling, Adaptation and Personalization (pp. 269–274). ACM.
+ID  - ref17
+ER  - 
+TY  - JOUR
+AU  - Fabic, G. V. F.
+AU  - Mitrovic, A.
+AU  - Neshatian, K.
+PY  - 2018
+DA  - 2018//
+TI  - Investigating the effects of learning activities in a mobile Python tutor for targeting multiple coding skills
+JO  - Research and Practice in Technology Enhanced Learning
+VL  - 13
+UR  - https://doi.org/10.1186/s41039-018-0092-x
+DO  - 10.1186/s41039-018-0092-x
+ID  - Fabic2018
+ER  - 
+TY  - JOUR
+AU  - Ferguson-Hessler, M. G.
+AU  - Jong, T.
+PY  - 1990
+DA  - 1990//
+TI  - Studying physics texts: Differences in study processes between good and poor performers
+JO  - Cognition and Instruction
+VL  - 7
+UR  - https://doi.org/10.1207/s1532690xci0701_2
+DO  - 10.1207/s1532690xci0701_2
+ID  - Ferguson-Hessler1990
+ER  - 
+TY  - JOUR
+AU  - Gadgil, S.
+AU  - Nokes-Malach, T. J.
+AU  - Chi, M. T.
+PY  - 2012
+DA  - 2012//
+TI  - Effectiveness of holistic mental model confrontation in driving conceptual change
+JO  - Learning and Instruction
+VL  - 22
+UR  - https://doi.org/10.1016/j.learninstruc.2011.06.002
+DO  - 10.1016/j.learninstruc.2011.06.002
+ID  - Gadgil2012
+ER  - 
+TY  - JOUR
+AU  - Garner, S.
+PY  - 2007
+DA  - 2007//
+TI  - An exploration of how a technology-facilitated part-complete solution method supports the learning of computer programming
+JO  - Issues in Informing Science & Information Technology
+VL  - 4
+UR  - https://doi.org/10.28945/966
+DO  - 10.28945/966
+ID  - Garner2007
+ER  - 
+TY  - CHAP
+AU  - Grandl, M.
+AU  - Ebner, M.
+AU  - Slany, W.
+AU  - Janisch, S.
+PY  - 2018
+DA  - 2018//
+TI  - It's in your pocket: A MOOC about programming for kids and the role of OER in teaching and learning contexts
+BT  - Conference Proceeding Open Education Global Conference
+ID  - Grandl2018
+ER  - 
+TY  - STD
+TI  - Harms, K. J., Chen, J., & Kelleher, C. (2016). Distractors in Parsons problems decrease learning efficiency for young novice programmers. In Proc. ACM Conference on International Computing Education Research (pp. 241–250). ACM.
+ID  - ref23
+ER  - 
+TY  - STD
+TI  - Helminen, J., Ihantola, P., Karavirta, V., & Malmi, L. (2012). How do students solve parsons programming problems? An analysis of interaction traces. In Proceedings of the ninth annual international conference on International computing education research (pp. 119–126). ACM.
+ID  - ref24
+ER  - 
+TY  - STD
+TI  - Hosseini, R. (2018). Program construction examples in computer science education: From static text to adaptive and engaging learning technology (Doctoral dissertation, University of Pittsburgh).
+ID  - ref25
+ER  - 
+TY  - JOUR
+AU  - Hsu, C. Y.
+AU  - Tsai, C. C.
+AU  - Wang, H. Y.
+PY  - 2012
+DA  - 2012//
+TI  - Facilitating third graders’ acquisition of scientific concepts through digital game-based learning: The effects of self-explanation principles
+JO  - The Asia-Pacific Education Researcher
+VL  - 21
+ID  - Hsu2012
+ER  - 
+TY  - STD
+TI  - Hürst, W., Lauer, T., & Nold, E. (2007, March). A study of algorithm animations on mobile devices. In ACM SIGCSE Bulletin (Vol. 39, No. 1, pp. 160–164). ACM.
+ID  - ref27
+ER  - 
+TY  - STD
+TI  - Ihantola, P., & Karavirta, V. (2011). Two-dimensional Parson’s puzzles: The concept, tools, and first observations. Journal of Information Technology Education, 10.
+ID  - ref28
+ER  - 
+TY  - STD
+TI  - Ihantola, P., Helminen, J., & Karavirta, V. (2013). How to study programming on mobile touch devices: Interactive Python code exercises. In Proc.13thKoli Calling Int. Conf. Computing Education Research (pp. 51–58). ACM.
+ID  - ref29
+ER  - 
+TY  - JOUR
+AU  - Johnson, C. I.
+AU  - Mayer, R. E.
+PY  - 2010
+DA  - 2010//
+TI  - Applying the self-explanation principle to multimedia learning in a computer-based game-like environment
+JO  - Computers in Human Behavior
+VL  - 26
+UR  - https://doi.org/10.1016/j.chb.2010.03.025
+DO  - 10.1016/j.chb.2010.03.025
+ID  - Johnson2010
+ER  - 
+TY  - STD
+TI  - Karavirta, V., Helminen, J., & Ihantola, P. (2012). A mobile learning application for Parsons problems with automatic feedback. In Proc. 12thKoli Calling Int. Conf. Computing Education Research (pp. 11–18). ACM.
+ID  - ref31
+ER  - 
+TY  - STD
+TI  - Kumar, A. N. (2018). Epplets: A tool for solving Parsons puzzles. In Proceedings of the 49th ACM Technical Symposium on Computer Science Education (pp. 527–532). ACM.
+ID  - ref32
+ER  - 
+TY  - JOUR
+AU  - Kwon, K.
+AU  - Kumalasari, C. D.
+AU  - Howland, J. L.
+PY  - 2011
+DA  - 2011//
+TI  - Self-explanation prompts on problem-solving performance in an interactive learning environment
+JO  - Journal of Interactive Online Learning
+VL  - 10
+ID  - Kwon2011
+ER  - 
+TY  - JOUR
+AU  - Lister, R.
+AU  - Clear, T.
+AU  - Bouvier, D. J.
+PY  - 2010
+DA  - 2010//
+TI  - Naturally occurring data as research instrument: Analyzing examination responses to study the novice programmer
+JO  - ACM SIGCSE Bulletin
+VL  - 41
+UR  - https://doi.org/10.1145/1709424.1709460
+DO  - 10.1145/1709424.1709460
+ID  - Lister2010
+ER  - 
+TY  - STD
+TI  - Lopez, M., Whalley, J., Robbins, P., & Lister, R. (2008, September). Relationships between reading, tracing and writing skills in introductory programming. In Proc. 4thInt. workshop on computing education research (pp. 101–112). ACM.
+ID  - ref35
+ER  - 
+TY  - JOUR
+AU  - Marx, J. D.
+AU  - Cummings, K.
+PY  - 2007
+DA  - 2007//
+TI  - Normalized change
+JO  - American Journal of Physics
+VL  - 75
+UR  - https://doi.org/10.1119/1.2372468
+DO  - 10.1119/1.2372468
+ID  - Marx2007
+ER  - 
+TY  - STD
+TI  - Mbogo, C., Blake, E., & Suleman, H. (2016). Design and use of static scaffolding techniques to support Java programming on a mobile phone. In Proceedings of the 2016 ACM Conference on Innovation and Technology in Computer Science Education (pp. 314–319). ACM.
+ID  - ref37
+ER  - 
+TY  - STD
+TI  - Morrison, B. B., Margulieux, L. E., Ericson, B., & Guzdial, M. (2016). Subgoals help students solve Parsons problems. In Proc. 47th ACM Technical Symposium on Computing Science Education (pp. 42–47). ACM.
+ID  - ref38
+ER  - 
+TY  - JOUR
+AU  - Najar, A. S.
+AU  - Mitrovic, A.
+AU  - McLaren, B. M.
+PY  - 2016
+DA  - 2016//
+TI  - Learning with intelligent tutors and worked examples: Selecting learning activities adaptively leads to better learning outcomes than a fixed curriculum
+JO  - User Modeling and User-Adapted Interaction
+VL  - 26
+UR  - https://doi.org/10.1007/s11257-016-9181-y
+DO  - 10.1007/s11257-016-9181-y
+ID  - Najar2016
+ER  - 
+TY  - JOUR
+AU  - O’Neil, H. F.
+AU  - Chung, G. K.
+AU  - Kerr, D.
+AU  - Vendlinski, T. P.
+AU  - Buschang, R. E.
+AU  - Mayer, R. E.
+PY  - 2014
+DA  - 2014//
+TI  - Adding self-explanation prompts to an educational computer game
+JO  - Computers in Human Behavior
+VL  - 30
+UR  - https://doi.org/10.1016/j.chb.2013.07.025
+DO  - 10.1016/j.chb.2013.07.025
+ID  - O’Neil2014
+ER  - 
+TY  - JOUR
+AU  - Oyelere, S. S.
+AU  - Suhonen, J.
+AU  - Wajiga, G. M.
+AU  - Sutinen, E.
+PY  - 2018
+DA  - 2018//
+TI  - Design, development, and evaluation of a mobile learning application for computing education
+JO  - Education and Information Technologies
+VL  - 23
+UR  - https://doi.org/10.1007/s10639-017-9613-2
+DO  - 10.1007/s10639-017-9613-2
+ID  - Oyelere2018
+ER  - 
+TY  - STD
+TI  - Parsons, D., & Haden, P. (2006). Parson's programming puzzles: A fun and effective learning tool for first programming courses. In Proceedings of the 8thAustralasian Conference on Computing Education – vol. 52 (pp. 157–163). Australian Computer Society, Inc.
+ID  - ref42
+ER  - 
+TY  - STD
+TI  - Plass, J. L., Moreno, R., & Brünken, R. (2010). Cognitive load theory. Cambridge University Press.
+ID  - ref43
+ER  - 
+TY  - JOUR
+AU  - Rau, M. A.
+AU  - Aleven, V.
+AU  - Rummel, N.
+PY  - 2015
+DA  - 2015//
+TI  - Successful learning with multiple graphical representations and self-explanation prompts
+JO  - Journal of Educational Psychology
+VL  - 107
+UR  - https://doi.org/10.1037/a0037211
+DO  - 10.1037/a0037211
+ID  - Rau2015
+ER  - 
+TY  - STD
+TI  - Someren, M. V., Barnard, Y. F., & Sandberg, J. A. (1994). The think aloud method: A practical approach to modelling cognitive processes. Academic Press.
+ID  - ref45
+ER  - 
+TY  - JOUR
+AU  - Meij, J.
+AU  - Jong, T.
+PY  - 2011
+DA  - 2011//
+TI  - The effects of directive self-explanation prompts to support active processing of multiple representations in a simulation-based learning environment
+JO  - Journal of Computer Assisted Learning
+VL  - 27
+UR  - https://doi.org/10.1111/j.1365-2729.2011.00411.x
+DO  - 10.1111/j.1365-2729.2011.00411.x
+ID  - Meij2011
+ER  - 
+TY  - JOUR
+AU  - Vinay, S.
+AU  - Vaseekharan, M.
+AU  - Mohamedally, D.
+PY  - 2013
+DA  - 2013//
+TI  - RoboRun: A gamification approach to control flow learning for young students with TouchDevelop
+JO  - arXiv preprint arXiv
+VL  - 1310
+ID  - Vinay2013
+ER  - 
+TY  - JOUR
+AU  - Wen, C.
+AU  - Zhang, J.
+PY  - 2015
+DA  - 2015//
+TI  - Design of a microlecture mobile learning system based on smartphone and web platforms
+JO  - IEEE Transactions on Education
+VL  - 58
+UR  - https://doi.org/10.1109/TE.2014.2363627
+DO  - 10.1109/TE.2014.2363627
+ID  - Wen2015
+ER  - 
+TY  - JOUR
+AU  - Winslow, L. e. o. n. E.
+PY  - 1996
+DA  - 1996//
+TI  - Programming pedagogy---a psychological overview
+JO  - ACM SIGCSE Bulletin
+VL  - 28
+UR  - https://doi.org/10.1145/234867.234872
+DO  - 10.1145/234867.234872
+ID  - Winslow1996
+ER  - 
+TY  - STD
+TI  - Wylie, R., & Chi, M.T.H. (2014) The self-explanation principle in multimedia learning, in Mayer, R.E. (ed.) The Cambridge Handbook of Multimedia Learning. Cambridge: Cambridge University Press, pp. 413–432.
+ID  - ref50
+ER  - 
