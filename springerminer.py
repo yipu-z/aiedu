@@ -61,8 +61,10 @@ def get_json_springer(paper_url):
     publication_year = soup.find(attrs={"data-test":"article-publication-year"}).text
     keywords = [word_html.text for word_html in soup.find_all(attrs={"itemprop":"about"})]
     citation = soup.find(attrs={"class":"c-bibliographic-information__citation"}).text
-    abstract = soup.select('#Abs1-content')[0].p.text
-    
+    try:
+        abstract = soup.select('#Abs1-content')[0].p.text
+    except:
+        abstract = ""
     data = {
         'article-title' : article_title, 
         'author' : author,
