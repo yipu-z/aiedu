@@ -6,17 +6,23 @@ path <- "../data/iaied"
 filenames <- dir(path)
 filepaths <- sapply(filenames, function(x) {paste(path, x, sep='/')})
 
+data <- rjson::fromJSON(file = filepaths[1])
+data <- data[-c(which(names(data)=="author"), which(names(data)=="keywords"))]
+summary <- as.data.frame(data)
+
 # Convert JSON file to CSV file
-for (i in 1:length(filepaths)) {
+for (i in 2:length(filepaths)) {
   # Give the input file name to the function
   data <- rjson::fromJSON(file = filepaths[i])
   # Remove authors and keywords
-  data <- data[-c(which(names(data)=="author"), which(names(data)=="keywords"), which(names(data)=="abstract"))]
+    data <- data[-c(which(names(data)=="author"), which(names(data)=="keywords"))]
   # Convert JSON file to a data frame
   json_data_frame <- as.data.frame(data)
-  # Store data frame to CSV
-  write.csv(json_data_frame, paste('../data/iaied_csv/', sub(".json", ".csv", filenames[i]), sep = ""), row.names=FALSE)
+  # Add data frame to summary
+  summary <- rbind(summary, json_data_frame)
+
   print(i)
 }
 
-
+# Store data frame to CSV
+write.csv(summary, '../data/iaied_csv/summary.csv', row.names=FALSE)
