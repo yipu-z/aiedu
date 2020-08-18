@@ -13,7 +13,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-def get_abstract_iaied(url, saveoption):
+def get_abstract_iaied(url, save_abstract):
     try:
         page = requests.get(url)
         soup = BeautifulSoup(page.text, 'html.parser')
@@ -47,30 +47,39 @@ def save_abstract_iaied(serial, abstract):
             return True
     return False
 
-choice = input('IAIED Data Miner. \nThe format of IAIED papers is \'https://iaied.org/journal/\' + serial number. \nPlease select choice: \n1 Extract single journal\n2 Extract multiple journals \nYour choice: ')
-saveoption = input('Save abstract text under iaied folder? (y/n) \nYour answer (y for yes, n for no): ')
+choice_paper = input('IAIED Data Miner. \nThe format of IAIED papers is \'https://iaied.org/journal/\' + serial number. \nPlease select choice: \n1 Extract single journal\n2 Extract multiple journals \nYour choice: ')
 
-if 'y' == saveoption:
-    folderpath = './iaied'
-    if not os.path.exists(folderpath):
-        os.mkdir(folderpath)
+choice_session = input('Please select choice: \n1 Extract abstract \n2 Extract reference\nYour choice: ')
 
-if choice == '1':
-    serial = input('Please enter serial number: ')
-    url = 'https://iaied.org/journal/' + serial
-    print('Mining abstract on https://iaied.org/journal/' + serial)
-    abstract = get_abstract_iaied(url, saveoption)
-    if 'y' == saveoption and abstract is not None:
-        save_abstract_iaied(serial, abstract)
+if choice_session == '1':
     
-elif choice == '2':
-    first = input('Please enter the minimum serial number: ')
-    last = input('Please enter the maximum serial number: ')
-    print('Mining abstract on https://iaied.org/journal/' + first + '~' + last)
-    for serial in range(int(first), int(last)+1):
-        url = 'https://iaied.org/journal/' + str(serial)
-        abstract = get_abstract_iaied(url, saveoption)
-        if 'y' == saveoption:
-            save_abstract_iaied(str(serial), abstract)
-
+    save_abstract = input('Save abstract text under iaied folder? (y/n) \nYour answer (y for yes, n for no): ')
+    
+    if 'y' == save_abstract:
+        folderpath = './iaied'
+        if not os.path.exists(folderpath):
+            os.mkdir(folderpath)
+    
+    if choice_paper == '1':
+        serial = input('Please enter serial number: ')
+        url = 'https://iaied.org/journal/' + serial
+        print('Mining abstract on https://iaied.org/journal/' + serial)
+        abstract = get_abstract_iaied(url, save_abstract)
+        if 'y' == save_abstract and abstract is not None:
+            save_abstract_iaied(serial, abstract)
+        
+    elif choice_paper == '2':
+        first = input('Please enter the minimum serial number: ')
+        last = input('Please enter the maximum serial number: ')
+        print('Mining abstract on https://iaied.org/journal/' + first + '~' + last)
+        for serial in range(int(first), int(last)+1):
+            url = 'https://iaied.org/journal/' + str(serial)
+            abstract = get_abstract_iaied(url, save_abstract)
+            if 'y' == save_abstract:
+                save_abstract_iaied(str(serial), abstract)
+                
+elif choice_session == '2':
+    
+    print('Directing to REFERENCEMINER program...')
+    
 
