@@ -42,28 +42,3 @@ net_connected <- induced.subgraph(net, subcomponent(net,1))
 plot(net_connected, vertex.color="lightblue", vertex.size=5, vertex.label=NA)
 ```
 
-# Another approach: Visualization using Echarts
-# This chunk will generate an author table and a relation table between authors. The next procedure will be processed in authorinfo_toecharts.py. 'authorinfo_toecharts.py' will generate a type of data that can be processed in Echarts. 
-## https://echarts.apache.org/examples/en/editor.html?c=graph-webkit-dep
-```{r}
-library("rjson")
-
-table_for_json <- read.csv("data/sna_table.csv")
-rownames(table_for_json) <- c(0:412)
-
-author_table <- table_for_json %>%
-  select(name = 1)
-
-table_for_json <- table_for_json[,-1]
-colnames(table_for_json) <- c(0:412)
-table_for_json[lower.tri(table_for_json, diag = TRUE)] <- NA
-table_for_json[table_for_json == 0] <- NA
-matrix <- table_for_json %>% as.matrix
-
-list_for_json <- melt(matrix)
-list_for_json <- na.omit(list_for_json)
-list_for_json <- list_for_json[, -3]
-colnames(list_for_json) <- c("source", "target")
-write.csv(author_table, "data/author_table_echarts.csv")
-write.csv(list_for_json, "data/relation_echarts.csv")
-```
