@@ -1,0 +1,231 @@
+---
+title: "sentimentanalysis"
+author: "Jie Chen"
+date: "8/18/2020"
+output: html_document
+---
+
+# Bipolar sentiment analysis using bing lexicon (by Bing Liu et al.)
+```{r}
+library(textdata)
+library(ggplot2)
+library(reshape2)
+library(wordcloud)
+library(ggwordcloud)
+# Load lexicons
+nrc <- get_sentiments("nrc")
+bing <- get_sentiments("bing")
+
+sa_bing_polar <- function(text_seg) {
+  # Most common positive and negative words in comments
+  text_seg_bing <- text_seg %>% inner_join(bing)
+  text_seg_bing_counts <- text_seg_bing %>%
+    count(word, sentiment, sort = TRUE) %>%
+    ungroup()
+  print(text_seg_bing_counts)
+  # Contribution to sentiment
+  
+  # bing_word_counts %>%
+  #   group_by(sentiment) %>%
+  #   top_n(10) %>%
+  #   ungroup() %>%
+  #   mutate(word = reorder(word, n)) %>%
+  #   ggplot(aes(word, n, fill = sentiment)) +
+  #   geom_col(show.legend = FALSE) +
+  #   facet_wrap(~sentiment, scales = "free_y") +
+  #   labs(y = "Contribution to sentiment",
+  #        x = NULL) +
+  #   coord_flip()
+  
+  # Word cloud in sentiments (bing: positive or negative)
+  text_seg_bing %>%
+    count(word, sentiment, sort = TRUE) %>%
+    acast(word ~ sentiment, value.var = "n", fill = 0) %>%
+    comparison.cloud(colors = c("gray20", "#FF9999"),
+                     max.words = 40)
+  
+  # Word cloud in sentiments (bing: positive or negative) using ggplot/ggwordcloud
+  ggplot(
+    text_seg_bing_counts[c(1:40),],
+    aes(
+      label = word, size = n,
+      x = sentiment, color = sentiment)) +
+    geom_text_wordcloud_area() +
+    scale_size_area() +
+    scale_x_discrete(breaks = NULL) +
+    theme_minimal()
+    
+  # To break the types, use facet_wrap(~sentiment)
+  ggplot(
+    text_seg_bing_counts[c(1:40),],
+    aes(
+      label = word, size = n,
+      x = sentiment, color = sentiment)) +
+    geom_text_wordcloud_area() +
+    scale_size_area() +
+    scale_x_discrete(breaks = NULL) +
+    theme_minimal() + 
+    facet_wrap(~sentiment)
+}
+
+```
+
+# Bipolar sentiment analysis using nrc lexicon (by Saif Mohammad and Peter Turney)
+
+```{r}
+library(textdata)
+library(ggplot2)
+library(reshape2)
+library(wordcloud)
+library(ggwordcloud)
+
+# Get words with emotion labeled
+# Because nrc has 2 sentiments (pos, neg) and 8 emotions, the sentiments and emotions overlap
+# Drop emotional words
+sa_nrc_polar <- function(text_seg) {
+  text_seg_nrc_polar <- text_seg %>% 
+    inner_join(nrc, by = "word") %>% 
+    subset(sentiment == "positive" | sentiment == "negative" )
+  
+  # Most common emotional words in comments
+  text_seg_nrc_polar_counts <- text_seg_nrc_polar %>%
+    count(word, sentiment, sort = TRUE) %>%
+    ungroup()
+  print(text_seg_nrc_polar_counts)
+  
+  # Word cloud in sentiments (nrc: 8 emotions)
+  text_seg_nrc_polar %>%
+    count(word, sentiment, sort = TRUE) %>%
+    acast(word ~ sentiment, value.var = "n", fill = 0) %>%
+    comparison.cloud(max.words = 40)
+  
+  # Word cloud in sentiments (nrc: 8 emotions) using ggplot/ggwordcloud
+  ggplot(
+    text_seg_nrc_polar_counts[c(1:40),],
+    aes(
+      label = word, size = n,
+      x = sentiment, color = sentiment)) +
+    geom_text_wordcloud_area() +
+    scale_size_area() +
+    scale_x_discrete(breaks = NULL) +
+    theme_minimal()
+    
+  # To break the types, use facet_wrap(~sentiment)
+  ggplot(
+    text_seg_nrc_polar_counts[c(1:40),],
+    aes(
+      label = word, size = n,
+      x = sentiment, color = sentiment)) +
+    geom_text_wordcloud_area() +
+    scale_size_area() +
+    scale_x_discrete(breaks = NULL) +
+    theme_minimal() + 
+    facet_wrap(~sentiment)
+}
+```
+
+# Multi-dimentional Sentiment analysis using nrc lexicon (by Saif Mohammad and Peter Turney)
+```{r}
+library(textdata)
+library(ggplot2)
+library(reshape2)
+library(wordcloud)
+library(ggwordcloud)
+
+# Get words with emotion labeled
+# Because nrc has 2 sentiments (pos, neg) and 8 emotions, the sentiments and emotions overlap
+# Drop sentiment words
+sa_nrc_multi <- function(text_seg) {
+  text_seg_nrc_emotion <- text_seg %>% 
+    inner_join(nrc) %>% 
+    subset(sentiment != "positive" & sentiment != "negative" )
+  
+  # Most common emotional words in comments
+  text_seg_nrc_emotion_counts <- text_seg_nrc_emotion %>%
+    count(word, sentiment, sort = TRUE) %>%
+    ungroup()
+  print(text_seg_nrc_emotion_counts)
+  
+  # Word cloud in sentiments (nrc: 8 emotions)
+  text_seg_nrc_emotion %>%
+    count(word, sentiment, sort = TRUE) %>%
+    acast(word ~ sentiment, value.var = "n", fill = 0) %>%
+    comparison.cloud(max.words = 40)
+  
+  # Word cloud in sentiments (nrc: 8 emotions) using ggplot/ggwordcloud
+  ggplot(
+    text_seg_nrc_emotion_counts[c(1:40),],
+    aes(
+      label = word,
+      x = sentiment, color = sentiment)) +
+    geom_text_wordcloud_area() +
+    scale_size_area() +
+    scale_x_discrete(breaks = NULL) +
+    theme_minimal()
+    
+  # To break the types, use facet_wrap(~sentiment)
+  ggplot(
+    text_seg_nrc_emotion_counts[c(1:40),],
+    aes(
+      label = word,
+      x = sentiment, color = sentiment)) +
+    geom_text_wordcloud_area() +
+    scale_size_area() +
+    scale_x_discrete(breaks = NULL) +
+    theme_minimal() + 
+    facet_wrap(~sentiment)
+}
+```
+
+# Data Cleaning
+
+```{r}
+library(tidytext)
+library(dplyr)
+
+# Import data
+rawdata <- read.csv("data/summary.csv")
+# Convert data to data frame
+rawdata_df <- as.data.frame(rawdata)
+
+# Extract useful data
+procdata_df <- subset(rawdata_df, select = c(publication.year, abstract))
+# Drop rows if no text
+procdata_df[procdata_df==""]<-NA
+procdata_df <- procdata_df %>% na.omit()
+
+get_text_seg <- function(procdata_df) {
+  # Word segmentation
+  text_df <- tibble(line = 1:nrow(procdata_df), text = as.character(procdata_df$abstract))
+  text_seg <- text_df %>% unnest_tokens(word, text)
+  # Remove stop words
+  data("stop_words")
+  text_seg <- text_seg %>% anti_join(stop_words)
+  # Remove words: Chinese characters, t.co, http, alphabetical words, numbers
+  text_seg <- text_seg %>%
+    mutate(word = sub("([\u4E00-\u9FA5]+)|([\u4E00-\u9FA5]+)", "", word)) %>%
+    mutate(word = sub("t.co|http", "", word)) %>%
+    mutate(word = sub("^[a-zA-Z]$", "", word)) %>%
+    mutate(word = sub(".*[0-9]+.*", "", word))
+  # Drop rows if no text
+  text_seg[text_seg==""]<-NA
+  text_seg <- text_seg %>% na.omit()
+  
+  # Word frequency
+  frequency <- text_seg %>%
+    count(word, sort = TRUE)
+
+  return(text_seg)
+}
+
+get_text_subset <- function(procdata_df, year) {
+  return(subset(procdata_df, publication.year == year))
+}
+
+get_text_seg(get_text_subset(procdata_df, 2015))
+
+sa_nrc_polar(get_text_seg(get_text_subset(procdata_df, 2015)))
+
+sa_nrc_multi(get_text_seg(get_text_subset(procdata_df, 2018)))
+
+```
