@@ -1,0 +1,44 @@
+---
+title: "socialnetworkanalysis"
+author: "Jie Chen"
+date: "8/19/2020"
+output: html_document
+---
+
+# Social Network Analysis
+
+Tutorials: 
+https://eehh-stanford.github.io/SNA-workshop/intro-igraph.html
+https://davetang.org/muse/2017/03/16/matrix-to-adjacency-list-in-r/#:~:text=An%20adjacency%20list%20is%20simply,list%20from%20a%20correlation%20matrix.
+https://davetang.org/muse/2017/03/16/matrix-to-adjacency-list-in-r/
+
+```{r}
+# Load liraries
+library("dplyr")
+library("igraph")
+library("reshape2")
+
+# Import data
+sna_table <- read.csv("data/sna_table.csv")
+rownames(sna_table) <- sna_table[,1]
+sna_table <- sna_table[,-1]
+sna_table_half <- sna_table
+sna_table_half[lower.tri(sna_table_half, diag = TRUE)] <- NA
+
+# Distance table using euclidean method
+dst <- sna_table%>% dist(method = 'euclidean',upper = T,diag = 0) %>% as.matrix()
+
+# Geting target and source nodes
+my_adj_list <- melt(dst)
+
+# Generate the plot
+net <- graph.data.frame(my_adj_list, directed = FALSE)
+#jpeg(filename='graph.jpg',width=2000,height=2000,units='px')
+plot(net, layout = layout.fruchterman.reingold, vertex.size=2, vertex.label=NA, edge.color=grey(0.85), edge.width = E(net)$weight)
+#dev.off()
+
+## retain only the connected component
+net_connected <- induced.subgraph(net, subcomponent(net,1))
+plot(net_connected, vertex.color="lightblue", vertex.size=5, vertex.label=NA)
+```
+

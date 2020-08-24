@@ -18,5 +18,3 @@ for (i in 1:length(filepaths)) {
   write.csv(json_data_frame, paste('../data/iaied_csv/', sub(".json", ".csv", filenames[i]), sep = ""), row.names=FALSE)
   print(i)
 }
-
-
