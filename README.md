@@ -1,5 +1,10 @@
 # aiedu
 
+## 08/25/2020 - Jie Chen
+[New] `commonkeywords_fromkws.py` - Get common keywords from keyword corpus. Result is in `keyword_dict.csv`.  
+[New] `ngram_model.py` - (1) Get n-gram model from abstract text; (2) Find context of negative words in abstracts. Trigrams are in `neg_trigrams.txt`.  
+[Update] `sentimentanalysis.Rmd` - Get negative words by both nrc and bing lexicons. Negative words from both lexicons have been merged in `neg_wordlist.csv`. 
+
 ## 08/22/2020 - Jie Chen
 
 [New] `socialnetworkanalysis.Rmd` - Pilot view of social network analysis.  
