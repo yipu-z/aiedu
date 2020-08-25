@@ -1,0 +1,567 @@
+,Key,Value
+0,Intelligent authoring system,1
+1,Machine learning,7
+2,Programming by demonstration,1
+3,Inductive logic programming,1
+4,Cognitive tutor authoring tools,1
+5,SimStudent,1
+6,Intelligent tutoring systems,29
+7,Interactive narrative,1
+8,Drama managed environment,1
+9,User interest,1
+10,Short answer,1
+11,Automatic grading,1
+12,Natural language processing,7
+13,Culture,1
+14,Artificial intelligence in education,3
+15,Culturally-aware tutoring system,1
+16,International representation in research,1
+17,Socio-cultural imbalance,1
+18,WEIRD dominance,1
+19,Digital divide,1
+20,Systematic mapping study,1
+21,Mobile learning,1
+22,Barriers to adoption,1
+23,Model-tracing,1
+24,Knowledge representation,2
+25,Pedagogical intervention,1
+26,Next-step hints,1
+27,Negative feedback,1
+28,Intercultural conflict,1
+29,Interactive learning,1
+30,Intelligent agents,1
+31,Synthetic cultures,1
+32,Augmented reality,1
+33,Intelligent tutoring,1
+34,Constraint-based tutors,1
+35,Training for assembly skills,1
+36,ASPIRE,1
+37,Intelligent Learning Environments,1
+38,Dynamic Contextualisation,1
+39,Cultural Semantics,1
+40,Intercultural Student Modelling,1
+41,Student-Initiated Control,1
+42,Help seeking,2
+43,Cross-curricular skills,1
+44,Assessment,4
+45,Intelligent tutoring system,8
+46,Language and culture learning,1
+47,Virtual environment,1
+48,Kinect,1
+49,Embodied cognition,1
+50,Simulated students,1
+51,Student modelling,4
+52,Learning styles,1
+53,Teaching styles,1
+54,Adaptive educational systems,1
+55,Human learning,1
+56,Pedagogical strategy,1
+57,Transfer of learning,1
+58,AIED,1
+59,IJAIED,1
+60,History,1
+61,Collaborative problem solving,2
+62,Computer agent,1
+63,Performance assessment,1
+64,Game-based features,1
+65,Gamification,1
+66,Seductive distractors,1
+67,Authoring tool,1
+68,Cognitive tutor,2
+69,Model-Tracing Tutor,1
+70,xPST,1
+71,Competences management,1
+72,Context awareness,1
+73,Contexts history,1
+74,Student modeling,3
+75,Problem solving times,1
+76,Item response theory,2
+77,Collaborative filtering,1
+78,Computerized adaptive practice,1
+79,SQL-Tutor,1
+80,Teaching querying,1
+81,Ill-defined task,1
+82,Dialogue,1
+83,Collaborative learning,3
+84,Argumentation,2
+85,Computer supported collaborative learning,2
+86,Scripted interaction,1
+87,Learning,4
+88,Teaching,1
+89,Motivation,4
+90,Pedagogy,1
+91,External representations,1
+92,Diagrams,1
+93,Reasoning,1
+94,Graphical literacy,1
+95,Pedagogical agents,2
+96,Experimental research,1
+97,Virtual humans,1
+98,Interface design,1
+99,Coaching,1
+100,Self-regulation,1
+101,Mirroring,1
+102,Feedback,5
+103,Personality,1
+104,Emotional support,1
+105,Adaptation,1
+106,Computer-based interaction analysis,1
+107,DEGREE,1
+108,Collaborative learning tools,1
+109,Learning communities,1
+110,Erroneous examples,2
+111,Problem solving,3
+112,Mathematics learning,1
+113,Game-based learning,3
+114,Virtual tutors,1
+115,Virtual coaches,1
+116,Virtual environments,1
+117,Robotics,2
+118,Teachable agents,1
+119,Adaptive learning environment,1
+120,Adaptive hypermedia,1
+121,Learning programming,1
+122,Physics education research,1
+123,Intelligent user interfaces,1
+124,Affect,3
+125,Computer science education,3
+126,Data-driven tutoring,1
+127,Automatic hint generation,1
+128,Programming tutors,1
+129,Solution space,1
+130,Peer agent,1
+131,Collaborative dialogue,1
+132,Intelligent tutoring for meta-cognition,1
+133,Self-explanation,1
+134,Authoring tools,3
+135,Complexity science,1
+136,Epistemic forms,1
+137,Activity theory,1
+138,Hierarchical complexity theory,1
+139,Ontological engineering,1
+140,Ontology-aware systems,1
+141,Ontology of learning/instructional theories,1
+142,Theory-compliant learning scenarios,1
+143,Automatic assessment,2
+144,Item Response Theory,1
+145,Computerized adaptive testing,1
+146,Online learning environment,1
+147,Remote laboratory,1
+148,Computer science,1
+149,Functional programming,1
+150,Haskell,1
+151,Tutoring,1
+152,Model tracing,1
+153,Automated feedback,1
+154,Adaptability,1
+155,Affective states,1
+156,Educational games,1
+157,Emotion labeling,1
+158,Interrater agreement,1
+159,Interviewing judges,1
+160,School-based field studies,1
+161,Learning science,1
+162,Cognitive model,1
+163,Game-based intelligent tutoring systems,1
+164,Dynamic analyses,1
+165,Stealth assessment,1
+166,Log data,2
+167,AutoTutor,1
+168,Conversational agents,2
+169,Trialogues,1
+170,Example-tracing tutors,1
+171,Self-regulated learning,3
+172,Metacognition,5
+173,Cognitive modeling,1
+174,Classroom evaluation,1
+175,Self-efficacy,2
+176,Tutorial dialogue,1
+177,Model construction,1
+178,High school science instruction,1
+179,Crowdsourcing,2
+180,Learnersourcing,1
+181,Learning gains,1
+182,Online learning platform,1
+183,Adaptive learning technologies,1
+184,ASSISTments,1
+185,Sensors,1
+186,Cyberlearning,1
+187,Passion based learning,1
+188,Creativity,1
+189,Wicked problems,1
+190,Artificial intelligence,4
+191,Education,5
+192,Adaptive intelligent tutoring systems,1
+193,Task sequencing,1
+194,Perceived task-difficulty recognition,1
+195,Classification,1
+196,Classification performance improvement,1
+197,Feature analysis,1
+198,Log-file features,1
+199,Meta-adaptation,1
+200,Micro-adaptation,1
+201,Distributed systems,2
+202,Social computing,1
+203,Adaptive sampling,1
+204,Reinforcement learning,2
+205,Transfer learning,1
+206,Ontologies,1
+207,Aied,1
+208,Educational technologies,1
+209,Future,1
+210,Risks,1
+211,Challenges,1
+212,Social technologies,1
+213,Emerging technologies,1
+214,Systems that care,1
+215,AI as a methodology,1
+216,Knowledge elicitation,1
+217,Evidence-based practice in education,1
+218,Computer-supported collaborative learning,3
+219,Adaptive collaborative learning support,1
+220,Theory of collaborative learning,1
+221,Instructional theory,1
+222,Procedural learning,1
+223,Motor skills learning,1
+224,Psychomotor learning domain,1
+225,Internet of me,1
+226,Quantified-self,1
+227,Wearable devices,1
+228,Big data,1
+229,3D modelling,1
+230,3D printing,1
+231,Ambient intelligence,1
+232,TORMES methodology,1
+233,Attentional computing,1
+234,Attentional awareness,1
+235,Attention-aware learning,1
+236,Eye tracking,1
+237,Mind wandering,1
+238,Decision-making,1
+239,Intelligence amplification,1
+240,Automated adaptation,1
+241,MOOCs,6
+242,Digital Education,1
+243,Learning Analytics,2
+244,Massive open online courses,1
+245,Smart learning environment,1
+246,Reengineering education,1
+247,Reorganizing schooling,1
+248,Pedagogical innovations,1
+249,Full context awareness,1
+250,Learning analytics,8
+251,Autonomous decision making,1
+252,Interactive learning environments,1
+253,Education revolution,1
+254,Engagement,1
+255,Modelling,1
+256,Monitoring,1
+257,Game-based e-learning,1
+258,Player behaviour,1
+259,EEG,1
+260,Computational algorithms,1
+261,Time-on-task,1
+262,Time series analysis,1
+263,Deductive logic instruction,1
+264,Data-driven methods,1
+265,Sharing student models,1
+266,Portability,1
+267,Personalization,2
+268,Educational settings,1
+269,User modelling,1
+270,Educational argument modeling systems,1
+271,Formative feedback,3
+272,Argumentation schemes,1
+273,Critical questions,1
+274,Artificial intelligence curriculum,1
+275,Search algorithms,1
+276,Automated assessment,1
+277,Algorithm visualization,1
+278,Open learner model,1
+279,Affect & behavior modelling,1
+280,Interest-based negotiation,1
+281,Writing analytics,1
+282,Rhetoric,1
+283,Civil law,1
+284,Participatory design,1
+285,Writing skills,2
+286,Automated scoring,1
+287,Adult students,1
+288,Persuasive essay,1
+289,Written summary,1
+290,Student Program,1
+291,Remote Laboratory,1
+292,Instructional Feedback,1
+293,Tutorial Dialogue,1
+294,Computer Science Education,1
+295,Annotations,1
+296,Personality traits,1
+297,Personality computing,1
+298,Learning personalization,1
+299,Complex problems,1
+300,Critique,1
+301,Crowdwork,1
+302,Project-based learning,1
+303,Design principles,1
+304,Social-technical systems,1
+305,Emotions,1
+306,Emotion regulation,1
+307,Emotion-aware systems,1
+308,Advanced learning technologies,1
+309,Source-based writing,1
+310,Content area writing,1
+311,Reading,1
+312,Writing,1
+313,Automated content analysis,2
+314,Writing intervention,1
+315,Wise-crowd content assessment,1
+316,Writing rubrics,1
+317,Feedback effects,1
+318,Elaborate feedback,1
+319,Knowledge of response,1
+320,Knowledge of correct response,1
+321,Figural analogies,1
+322,Measuring change,1
+323,Explanatory IRT,1
+324,Argument diagram,1
+325,Writing instruction,2
+326,Science instruction,1
+327,Educational intervention,1
+328,Representation,1
+329,Educational data mining,5
+330,Clustering,1
+331,User modeling,1
+332,Interactive simulations,1
+333,Exploratory learning environments,2
+334,Peer reviews,1
+335,Grounded feedback,1
+336,Multiple representations,2
+337,Designing interactive learning environments,1
+338,Connection making,1
+339,Sense-making processes,1
+340,Inductive learning processes,1
+341,Spatial skills,1
+342,Formative assessment,1
+343,Individual differences,1
+344,Ill-defined domains,1
+345,Peer feedback,2
+346,Feedback localization,1
+347,Automated formative feedback,1
+348,Choice,1
+349,Performance,1
+350,Game,1
+351,Mental models,1
+352,Explanations,1
+353,Causal structure,1
+354,Causal relations,1
+355,Feedback framework,1
+356,Student assistance,1
+357,Answer categorization,1
+358,Feedback sequencing,1
+359,Error categorization,1
+360,Feedback effectiveness evaluation,1
+361,Intrapersonal factors,1
+362,Automated writing evaluation,1
+363,Utility value,1
+364,Automated writing assessment,1
+365,Essay scoring,1
+366,Text analysis,3
+367,Linguistic features,1
+368,Automatic essay assessment,1
+369,Analytical writing in response to text,1
+370,Evidence,1
+371,Organization,1
+372,Task-dependent,1
+373,Artificial virtual humans,1
+374,Avatars,1
+375,Embodied conversational agents,2
+376,Informal science education,1
+377,Science museum exhibit,1
+378,Turing test,1
+379,Team tutoring,3
+380,Teamwork,2
+381,Taskwork,2
+382,Adaptive instruction,4
+383,Team-based instruction,1
+384,Team learning,1
+385,Team performance,1
+386,Team satisfaction,1
+387,Team viability,1
+388,Collective,1
+389,Collective training,1
+390,Shared mental models,1
+391,Collective tasks,1
+392,Cognitive models,1
+393,Affective models,1
+394,Social models,1
+395,Collective tutoring,1
+396,Personalized learning,2
+397,Regularized regression,1
+398,Supplemental instruction,1
+399,Affect sensitivity,1
+400,Authoring,1
+401,Generalized intelligent framework for tutoring (GIFT),1
+402,Instructional management,1
+403,Psychomotor tasks,1
+404,Teams,1
+405,Testbed,1
+406,Inquiry-based learning,1
+407,Cloud lab,1
+408,Remote experimentation,1
+409,Computer-communication networks,1
+410,Life science,1
+411,Biology,1
+412,Interactive biotechnology,1
+413,Euglena,1
+414,Phototaxis,1
+415,Simulation and modeling,1
+416,Data analysis,1
+417,Human Computer Interaction (HCI),1
+418,User interface,1
+419,User studies,1
+420,Massive Open Online Course (MOOC),1
+421,edX,1
+422,Computer uses in education,1
+423,GIFT,2
+424,Architecture,1
+425,Evaluation,2
+426,Affect detection,1
+427,Motivational feedback,1
+428,Gift,1
+429,Expert modeling,1
+430,Psychomotor,1
+431,Marksmanship,1
+432,English language learners,2
+433,MOOC behavioral analysis,1
+434,ELL student identification,1
+435,Language support interventions,1
+436,Systematic literature review,1
+437,Intelligent tutoring systems design,1
+438,Collaborative learning platforms,1
+439,Learning motivations,1
+440,Designing for multiple stakeholders,1
+441,Signal processing,1
+442,Constructionism,1
+443,Civic education,1
+444,Discourse,1
+445,Political ideology,1
+446,Structural topic model,1
+447,Computer-supported writing instruction,1
+448,Academic writing,1
+449,Cold-start,1
+450,Test-size reduction,1
+451,Determinantal point processes,1
+452,Multistage testing,1
+453,Cognitive diagnosis,1
+454,OWL,1
+455,Ontology,1
+456,Medical education,1
+457,Student assessment,1
+458,e-learning,1
+459,Question generation,1
+460,Web-based learning system,1
+461,Personality prediction,1
+462,Synchornous/asynchronous communication,1
+463,User survey,1
+464,Linguistic content,1
+465,Reading comprehension,1
+466,Multichannel data,1
+467,Prior knowledge,1
+468,Emergency care provider,1
+469,Empirical study,1
+470,Human performance,1
+471,Performance analysis,1
+472,Personal assistant,1
+473,Synthetic assistant,1
+474,Teachable agent,3
+475,Similarity attraction,1
+476,Math game,1
+477,Educational technology,2
+478,Individual interest,1
+479,Learning at scale,1
+480,Willingness to communicate in L2,1
+481,Communication strategies,1
+482,Affective backchannels,1
+483,Assessment and testing of learning outcomes,1
+484,Modeling metacognitive skills,1
+485,Reflection,1
+486,Reflective writing,1
+487,Career prediction,1
+488,Knowledge tracing,1
+489,Knowledge space theory,1
+490,Simulation,1
+491,Reliability,1
+492,Adaptive assessment,1
+493,Data-driven hints,1
+494,Programming,1
+495,Hint quality,1
+496,Invention,1
+497,Scaffolding,1
+498,STEM learning,1
+499,Adaptive technologies,1
+500,Productive failure,1
+501,Worked examples,2
+502,Adaptive selection of learning activities,1
+503,Agency,1
+504,Adaptivity,1
+505,Intelligent language tutoring systems,1
+506,Item difficulty prediction,1
+507,Second language acquisition,1
+508,Digital ink,1
+509,Handwritten equations,1
+510,Smartpen,1
+511,Development methodologies for AIED systems,1
+512,Iterative design,1
+513,Experimental studies,1
+514,Educational design research,1
+515,Computer-aided language learning,1
+516,Dialogue systems,1
+517,Replication research,1
+518,Sensitivity analysis,1
+519,Fake learners,1
+520,Mobile Python tutor,1
+521,Menu-based self-explanation,1
+522,Parsons problems,1
+523,Professional competencies,1
+524,Academic profiles,1
+525,Job advertisements,1
+526,Competence thesauri,1
+527,Similarity measures,1
+528,Alignment of profiles,1
+529,Automatic question generation,1
+530,Semantic Web,1
+531,Natural language generation,1
+532,Difficulty prediction,1
+533,Instructional sequencing,1
+534,History of artificial intelligence in education,1
+535,AI in Education,1
+536,Perceived credibility,1
+537,Research evidence,1
+538,The in-credible AI effect,1
+539,Writing process,1
+540,Keystroke log,1
+541,Hidden Markov model,1
+542,Markov chain Monte Carlo method,1
+543,Learning by teaching,1
+544,Goal-oriented practice,1
+545,Algebra,1
+546,Context,1
+547,Facial expressions of emotions,1
+548,Scientific reasoning,1
+549,Preschoolers,1
+550,Eye-tracking,1
+551,Early math,1
+552,Number sense,1
+553,Learning sciences,1
+554,Early STEM (Science,1
+555,Technology,1
+556,Engineering and Math) Education,1
+557,Mixed-reality,1
+558,Adaptive and intelligent multimedia and hypermedia systems,1
+559,Intelligent Tutoring Systems (ITSs),1
+560,Neural models applied to AIED systems,1
+561,Introductory programming education,1
+562,CS1,1
+563,Python,1
+564,Program construction,1
+565,Classroom study,1
