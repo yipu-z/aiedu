@@ -34,8 +34,7 @@ ka.m <- as.matrix(ka.m[,-1])
 rownames(ka.m) = kw00$Key
 
 # Get the keyword-keyword matrix
-k.m <- ka.m
-k.m = k.m %*% t(k.m)
+k.m = ka.m %*% t(ka.m)
 names(k.m) = kw00$Key
 rownames(k.m) = kw00$Key
 
@@ -66,3 +65,54 @@ comp[,2] <- ka.m.cut4
 comp[,4] <- ka.m.cut8
 rownames(comp) = kw00$Key
 names(comp) = c("kmeans4","addtree4","kmeans8","addtree8")
+
+library(magrittr)
+library(dplyr)
+library(ggpubr)
+
+#Compute MDS
+mds <- ka.m %>% dist() %>% cmdscale() %>% as_tibble()
+colnames(mds) <- c("Dim.1", "Dim.2")
+
+
+# K-means clustering
+mds <- mds %>% mutate(cl4 = as.factor(cl4$cluster), cl8 = as.factor(cl8$cluster))
+
+# Plot and color by groups (K=4)
+ggscatter(mds, x = "Dim.1", y = "Dim.2",
+          color = "cl4",
+          palette = "jco",
+          size = 1,
+          ellipse = TRUE,
+          ellipse.type = "convex",
+          repel = TRUE)
+
+# Plot and color by groups (K=8)
+ggscatter(mds, x = "Dim.1", y = "Dim.2",
+          color = "cl8",
+          palette = "jco",
+          size = 1,
+          ellipse = TRUE,
+          ellipse.type = "convex",
+          repel = TRUE)
+
+# Remove Cl4=2or3
+mds2 <- filter(mds, cl4==1 | cl4==4)
+
+# Plot and color by groups (mds2, K=8-2)
+ggscatter(mds2, x = "Dim.1", y = "Dim.2",
+          color = "cl8",
+          palette = "jco",
+          size = 1,
+          ellipse = TRUE,
+          ellipse.type = "convex",
+          repel = TRUE)
+
+# A Keyword Network
+# Get keywords that were mentioned more than once
+k.net <- k.m[which(diag(k.m)>1),which(diag(k.m)>1)]
+# Plot
+library(igraph)
+net = graph.adjacency(k.net, mode = "undirected", weighted = TRUE, diag = FALSE)
+plot.igraph(net, vertex.label=V(net)$name, label.dist=25, layout=layout.circle, vertex.size=5, vertex.label.color="black", edge.color="black", edge.width=E(net)$weight/10000, edge.curved=TRUE)
+
