@@ -1,0 +1,235 @@
+---
+title: "20200910_SocialNetworkAnalysis"
+author: "Jie Chen, Zach Friedman"
+date: "9/10/2020"
+output: 
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE)
+```
+
+
+```{r, message = F, warning = F, results = "hide"}
+# Load liraries and set working directory
+library(tidyverse)
+library(mstknnclust)
+library(dplyr)
+library(igraph)
+library(reshape2)
+library(stringr)
+library(CINNA)
+library(ggthemes)
+library(linkcomm)
+library(formattable)
+```
+
+```{r, results = "hide"}
+#create list with file names
+files <- list.files(path="C:/Users/Zachary Friedman/Desktop/ZColumbia/TLTL Research/aiedu/data/sna_tables", pattern="\\d.csv", full.names=TRUE, recursive=FALSE)
+
+#start function which loops through files, creates graph objects, and summary metrics
+lapply(files, function(x) {
+year_name = paste(as.character(str_sub(x,nchar(x)-7, nchar(x)-6)),as.character(str_sub(x,nchar(x)-5, nchar(x)-4)),sep = "-")
+Years = year_name
+
+# Import data
+sna_table <- read.csv(x)
+rownames(sna_table) <- sna_table[,1]
+sna_table <- sna_table[,-1]
+
+assign(paste("sna_table",year_name,sep = ""),sna_table,envir = .GlobalEnv)
+
+# Create adjacency list and graph
+my_adj_list <- sna_table %>% as.matrix()
+
+new_net <- graph_from_adjacency_matrix(my_adj_list, weighted= TRUE, mode = "undirected")
+
+assign(paste("new_net",year_name,sep = ""),new_net,envir = .GlobalEnv)
+
+# Graph Summary Measures
+Edge_count = E(new_net) %>% length
+Node_count = V(new_net) %>% length
+Edge_density = edge_density(new_net) %>% round(3)
+Diameter = diameter(new_net, directed = F)
+Mean_distance = mean_distance(new_net) %>% round(3)
+Top_pagerank = page.rank(new_net) %>% .[[1]] %>% sort %>% tail(1) %>% names
+
+
+# Largest Connected Component Summary Measures
+
+LCC = giant_component_extract(new_net, directed = FALSE)
+LCC <- graph.data.frame(LCC[2])
+LCC_edge_count = E(LCC) %>% length
+New_net_edge_count = E(new_net) %>% length
+LCC_frac_size = (LCC_edge_count/New_net_edge_count) %>% round(3)
+
+LCC_edge_density = edge_density(LCC) %>% round(3)
+LCC_diameter = diameter(LCC, directed = F)
+
+LCC_top_eigencentrality = eigen_centrality(LCC) %>% .[[1]] %>% sort %>% tail(1) %>% names
+LCC_mean_distance = mean_distance(LCC) %>% round(3)
+LCC_top_pagerank = page.rank(LCC) %>% .[[1]] %>% sort %>% tail(1) %>% names
+
+#Create table with summary measures and assign it to Global Environment so loop doesn't overwrite
+table <- cbind(Years,Node_count, Edge_count, Edge_density,Diameter,Mean_distance,Top_pagerank,LCC_frac_size,LCC_edge_density) %>% tbl_df
+
+assign(paste("table",year_name,sep = ""),table,envir = .GlobalEnv)
+
+})
+```
+
+```{r,results = "hide"}
+#Create lists of graph obects and tables for later uses in lapply functions
+net_back_4 = as.list(paste("new_net",paste(as.character(str_sub(files,nchar(files)-7, nchar(files)-6)),as.character(str_sub(files,nchar(files)-5, nchar(files)-4)),sep = "-"),sep = ""))
+
+net_list <- lapply(net_back_4, get)
+
+sna_back_4 = as.list(paste("sna_table",paste(as.character(str_sub(files,nchar(files)-7, nchar(files)-6)),as.character(str_sub(files,nchar(files)-5, nchar(files)-4)),sep = "-"),sep = ""))
+
+sna_list <- lapply(sna_back_4, get)
+
+file_back_4 = as.list(paste("table",paste(as.character(str_sub(files,nchar(files)-7, nchar(files)-6)),as.character(str_sub(files,nchar(files)-5, nchar(files)-4)),sep = "-"),sep = ""))
+
+table_list <- lapply(file_back_4, get)
+
+table1 <- do.call(rbind,table_list)
+
+```
+
+## Network Metrics for Two Year Periods from 2013-2020 
+
+```{r}
+#Repeat the function two chunks above for all years
+
+sna_all <- read.csv("data/sna_tables/sna_table.csv")
+rownames(sna_all) <- sna_all[,1]
+sna_all <- sna_all[,-1]
+
+
+# Create adjacency list and graph
+my_adj_list <- sna_all %>% as.matrix()
+
+new_net <- graph_from_adjacency_matrix(my_adj_list, weighted= TRUE, mode = "undirected")
+
+# Summary Measures
+Edge_count = E(new_net) %>% length
+Node_count = V(new_net) %>% length
+Edge_density = edge_density(new_net) %>% round(3)
+Diameter = diameter(new_net, directed = F)
+Mean_distance = mean_distance(new_net) %>% round(3)
+Top_pagerank = page.rank(new_net) %>% .[[1]] %>% sort %>% tail(1) %>% names
+
+# Largest Connected Component Summary Measures
+
+LCC = giant_component_extract(new_net, directed = FALSE)
+LCC <- graph.data.frame(LCC[2])
+LCC_edge_count = E(LCC) %>% length
+New_net_edge_count = E(new_net) %>% length
+LCC_frac_size = (LCC_edge_count/New_net_edge_count) %>% round(3)
+
+LCC_edge_density = edge_density(LCC) %>% round(3)
+LCC_diameter = diameter(LCC, directed = F)
+
+LCC_top_eigencentrality = eigen_centrality(LCC) %>% .[[1]] %>% sort %>% tail(1) %>% names
+LCC_mean_distance = mean_distance(LCC) %>% round(3)
+LCC_top_pagerank = page.rank(LCC) %>% .[[1]] %>% sort %>% tail(1) %>% names
+Years = "All Years"
+
+table2 <- table1 %>% rbind(cbind(Years,Node_count, Edge_count, Edge_density,Diameter,Mean_distance,Top_pagerank,LCC_frac_size,LCC_edge_density)) %>% tbl_df
+
+table2 %>% formattable()
+```
+
+## Network Metric Visualizations
+
+```{r}
+# Visualization/Analysis
+final_table <- table2
+
+par(mfrow=c(1,2))
+
+final_table %>% filter(Years!= "All Years") %>% ggplot + geom_col(mapping = aes(x=Years, y = as.numeric(Edge_count)),fill = "royalblue1") + geom_label(aes(x=Years, y = as.numeric(Edge_count), label = as.numeric(Edge_count))) + theme_bw() + labs(x = "Network Time Period", y = "Graph Edge Count", title = "Connections Between Authors Over Time")
+
+
+final_table %>% filter(Years!= "All Years") %>% ggplot + geom_col(mapping = aes(x =Years, y = as.numeric(Node_count)),fill = "red4") + geom_label(aes(x=Years, y = as.numeric(Node_count), label = as.numeric(Node_count))) + theme_bw() + labs(x = "Network Time Period", y = "Graph Node Count", title = "Number of Authors Publishing Over Time")
+
+final_table %>% ggplot + geom_col(mapping = aes(x =Years, y = as.numeric(Edge_density)),fill = "forestgreen") + geom_label(aes(x=Years, y = as.numeric(Edge_density), label = as.numeric(Edge_density))) + theme_bw() + labs(x = "Network Time Period", y = "Edge Density", title = "Connectendess of Network Graph Over Time")
+
+# final_table %>% ggplot + geom_col(mapping = aes(x =Years, y = as.numeric(Mean_distance)),fill = "slateblue") + geom_label(aes(x=Years, y = as.numeric(Mean_distance), label = as.numeric(Mean_distance))) + theme_bw() + labs(x = "Network Time Period", y = "Mean Distance Between Nodes", title = "Sparsity of Network Over Time")
+
+final_table %>% ggplot + geom_col(mapping = aes(x =Years, y = as.numeric(LCC_frac_size)),fill = "sienna3") + geom_label(aes(x=Years, y = as.numeric(LCC_frac_size), label = as.numeric(LCC_frac_size))) + theme_bw() + labs(x = "Network Time Period", y = "LCC Fraction (LCC Edge Count/Network Edge Count)", title = "Size of Largest Connected Componenet as a Fraction of Whole Network")
+
+```
+
+### Findings
+
+* 2017-2018 had the most connections, nearly two times as many as any other two year time period.
+
+* 2013-2014 had the least authors publish of any two year time period. 2017-2018 had the most, as expected.
+
+* 2013-2014 had the most connections per author, with 2019-2020 being close behind
+
+* 2017-2018 had the largest single network as a proportion of its total network size.
+
+## Community/Cluster Visualizations and Statistics 
+
+```{r, cache = T, results = "hide"}
+#Create lists of edges from graphs to use in getLinkCommunities function
+edge_list_all <- lapply(net_list, as_edgelist)
+
+lc <- lapply(edge_list_all, getLinkCommunities, hcmethod = "single")
+
+lapply(lc, plot, type = "graph", layout = layout.fruchterman.reingold)
+
+par(mfrow=c(1,2))
+```
+
+```{r}
+#Show all information in Communities' objects
+lc
+```
+
+
+
+```{r}
+#Other Plotting Tests
+
+
+# for (i in 1:length(net_list)) { plot(net_list[[i]],vertex.color="lightblue", vertex.size=5, vertex.label=NA) }
+# par(mfrow=c(1,2))
+# 
+# lapply(net_list, plot, vertex.color="lightblue", vertex.size=5, vertex.label=NA)
+
+
+# jpeg(filename='graph.jpg',width=2000,height=2000,units='px')
+# plot(new_net, layout = layout.fruchterman.reingold, vertex.size=2, vertex.label=NA, edge.color=grey(0.85), edge.width = E(net)$weight)
+
+```
+
+
+```{r,results = "hide"}
+#Other Clustering Tests
+
+# Clustering mst.knn = 20 clusters
+# lapply(files, function(x) {
+# sna_table <- read.csv(x)
+# rownames(sna_table) <- sna_table[,1]
+# sna_table <- sna_table[,-1]
+# year_name = paste(as.character(str_sub(x,nchar(x)-7, nchar(x)-6)),as.character(str_sub(x,nchar(x)-5, nchar(x)-4)),sep = "-")
+# Create adjacency list 
+
+# my_adj_list <- sna_table %>% as.matrix()
+
+# clustering
+# results <- mst.knn(my_adj_list)
+# cluster_df <- results$partition
+# cluster_df <- cluster_df %>% select(name = object, cluster = cluster)
+
+#   
+# assign(paste("author_clusters",year_name,sep = ""),cluster_df,envir = .GlobalEnv)
+# })
+```
