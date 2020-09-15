@@ -1,0 +1,45 @@
+15-20, 8topics, Gamma<0.6
+
+17:
+Stephen B. Gilbert, Iowa State U., Industrial & Manufacturing
+Stephen B. Blessing, U. of Tampa, Psychology
+Enruo Guo, Iowa State U., Computer Science
+
+22:
+Benedict du Boulay, U. of Sussex, Human-Centered Tech
+Teresa del Soldato, Bodywise Natural Health
+
+27:
+B. Barros, U. de Malaga
+M. F. Verdejo, U. Nacional de Educacion...
+
+39
+Julien Broisin, U. of Toulouse
+Remi Venant, U. of Toulouse
+Phihlippe Vidal, U. of Toulouse
+
+62
+Carolyn Penstein Rose, CMU, Language Tech & Human-Computer Interaction Ins.
+Oliver Ferschke, CMU
+
+104
+Benjamin Goldberg
+U.S. Army Research Laboratory
+U.S. Army Research Laboratory, Orlando, FL, USA
+
+Charles Amburn
+U.S. Army Research Laboratory
+U.S. Army Research Laboratory, Orlando, FL, USA
+
+Charlie Ragusa
+Dignitas Technologies, Inc.
+grid.455383.c, Dignitas Technologies, Inc., Orlando, FL, USA
+
+Dar-Wei Chen
+Georgia Institute of Technology
+0000 0001 2097 4943, grid.213917.f, Georgia Institute of Technology
+
+121
+Emmanuel Ayedoun
+Yuki Hayashi
+Kazuhisa Seta
