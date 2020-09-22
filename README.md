@@ -1,7 +1,7 @@
 # aiedu
 
 ## 09/22/2020 - Jie Chen
-[New] `extract_htmlinfo_tojson.py` - Have conference html files, extract useful info, get json files. 
+[New] `extract_htmlinfo_tojson.py` - Have conference html files, extract useful info, get json files.  
 [New] `miner_aied_journal_web.py` - Extract paper links from official website, then get journal html files, extract useful info, get json files.  
 
 
