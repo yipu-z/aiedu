@@ -1,5 +1,10 @@
 # aiedu
 
+## 09/22/2020 - Jie Chen
+[New] `extract_htmlinfo_tojson.py` - Have conference html files, extract useful info, get json files. 
+[New] `miner_aied_journal_web.py` - Extract paper links from official website, then get journal html files, extract useful info, get json files.  
+
+
 ## 08/25/2020 - Jie Chen
 [New] `commonkeywords_fromkws.py` - Get common keywords from keyword corpus. Result is in `keyword_dict.csv`.  
 [New] `ngram_model.py` - (1) Get n-gram model from abstract text; (2) Find context of negative words in abstracts. Trigrams are in `neg_trigrams.txt`.  
