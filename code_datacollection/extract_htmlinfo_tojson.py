@@ -60,6 +60,7 @@ def get_json_springer_conf(filename):
 
     conf_title = soup.find(attrs={"data-test":"ConfSeriesName"}).text.lstrip()
     conf_acronym = soup.find(attrs={"data-test":"ConferenceAcronym"}).text
+    publication_year = conf_acronym.strip('AIED ')
     book_title = soup.find(attrs={"class":"BookTitle"}).text
     page_num_info =  " ".join(soup.find(attrs={"class":"page-numbers-info"}).text.split())
     keywords = [word_html.text.rstrip() for word_html in soup.find_all(attrs={"class":"Keyword"})]
@@ -74,6 +75,7 @@ def get_json_springer_conf(filename):
         'author' : author,
         'conf-title' : conf_title,
         'conf-acronym' : conf_acronym,
+        'publication-year' : publication_year,
         'book-title' : book_title,
         'page-info' : page_num_info,
         'keywords' : keywords,
@@ -83,6 +85,55 @@ def get_json_springer_conf(filename):
     
     jsondata = json.dumps(data)
     
+    return jsondata
+
+def get_json_springer_jour(filename):
+    
+    with open(filename, encoding='utf8') as file:
+        html_text = unicodedata.normalize("NFKD", file.read())
+    
+    soup = BeautifulSoup(html_text, 'html.parser')
+    article_title = soup.find(attrs={"data-test":"article-title"}).text
+    author_name = [name_html.text for name_html in soup.find_all(attrs={"data-test":"author-name"})]
+    author_affiliation = [aff_html.meta['content'] for aff_html in soup.find_all(attrs={"itemprop":"affiliation"})]
+    author_address = [addr_html['content'] for addr_html in soup.find_all(attrs={"itemprop":"address"})]
+    author = []
+    if len(author_name) == len(author_affiliation) and len(author_name) == len(author_address): 
+        count = len(author_name)
+        for i in range(0,count):
+            author.append({'author-name' : author_name[i], 'affiliation' : author_affiliation[i], 'address' : author_address[i]})
+        status = True
+    else:
+        status = False
+        print("[Warning] " + filename + " The numbers of authors and affliations do not match. Will store author name only. ")
+        count = len(author_name)
+        for i in range(0,count):
+            author.append({'author-name' : author_name[i]})
+    journal_title = soup.find(attrs={"data-test":"journal-title"}).text
+    journal_volume = "".join(soup.find(attrs={"data-test":"journal-volume"}).text.split())
+    pageStart = soup.find(attrs={"itemprop":"pageStart"}).text
+    pageEnd = soup.find(attrs={"itemprop":"pageEnd"}).text
+    publication_year = soup.find(attrs={"data-test":"article-publication-year"}).text
+    keywords = [word_html.text for word_html in soup.find_all(attrs={"itemprop":"about"})]
+    citation = soup.find(attrs={"class":"c-bibliographic-information__citation"}).text
+    try:
+        abstract = soup.select('#Abs1-content')[0].p.text
+    except:
+        abstract = ""
+    data = {
+        'article-title' : article_title, 
+        'author' : author,
+        'journal-title' : journal_title,
+        'journal-volume' : journal_volume,
+        'pageStart' : pageStart,
+        'pageEnd' : pageEnd,
+        'publication-year' : publication_year,
+        'keywords' : keywords,
+        'citation' : citation,
+        'abstract' : abstract
+        }
+    
+    jsondata = json.dumps(data)
     return jsondata
 
 def save_json_springer(filename_input, filename_output):
@@ -95,7 +146,7 @@ def save_json_springer(filename_input, filename_output):
     else: 
         txt = open(filename_output, 'w')
         try:
-            jsondata = get_json_springer_conf(filename_input)
+            jsondata = get_json_springer_jour(filename_input)
             txt.write(jsondata)
         except:
             print('[Error] ' + filename_output + ' not saved.')
@@ -108,8 +159,8 @@ def save_json_springer(filename_input, filename_output):
             status = True
     return status, message
 
-folder_path_input = '../data/iaied_conf_html_1120'
-folder_path_output = '../data/iaied_conf_json_1120'
+folder_path_input = '../../data/JAIED_20132020/iaied_journal_html_20-3'
+folder_path_output = '../../data/JAIED_20132020/iaied_journal_json_20-3_'
 
 if not os.path.exists(folder_path_output):
     os.mkdir(folder_path_output)

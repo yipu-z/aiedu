@@ -2,7 +2,7 @@
 library("rjson")
 
 # Read all files in the data folder
-path <- "../data/iaied"
+path <- "../new data/JAIED_20132020/iaied_journal_json_1320"
 filenames <- dir(path)
 filepaths <- sapply(filenames, function(x) {paste(path, x, sep='/')})
 
@@ -25,4 +25,4 @@ for (i in 2:length(filepaths)) {
 }
 
 # Store data frame to CSV
-write.csv(summary, '../data/iaied_csv/summary.csv', row.names=FALSE)
+write.csv(summary, '../new data/JAIED_20132020/test.csv', row.names=FALSE)

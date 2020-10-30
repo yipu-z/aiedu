@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Aug  7 07:30:39 2020
+Created on Tue Sep  1 07:53:01 2020
 
 @author: Jie Chen
 """
@@ -23,7 +23,7 @@ if not os.path.exists(folderpath_paper):
         
 def get_ris_springer(url):
     
-    ris_url = 'https://link.springer.com' + url + '-references.ris'
+    ris_url = url + '-references.ris'
     rule = r'\/([^\/]*ris)$'
     ris_filename = re.findall(rule, ris_url)[0]
     try:
@@ -92,7 +92,7 @@ def save_json_springer(url):
         print(filepath + ' already exists. Will not override.')
     else: 
         txt = open(filepath, 'w')
-        paper_url = 'https://link.springer.com' + url
+        paper_url = url
         try:
             jsondata, status = get_json_springer(paper_url)
             
@@ -110,23 +110,17 @@ def save_json_springer(url):
             print('[Success] ' + paper_url + ' saved as ' + filepath)
 
 def main():
-    print('Springer Paper Miner. \nIt is a program for mining Springer papers. This program will extract the references and paper information from all papers in a same journal, volume, and issue at one time. \n\nThe format of Springer link is \'https://link.springer.com/journal/[journal ID]/[volume]/[issue] \ne.g. International Journal of Artificial Intelligence in Education 2020, Volume 30, Issue 1. \nLink: https://link.springer.com/journal/40593/30/1\nJournal ID: 40593 \nVolume: 30 \nIssue: 1 \n\nPlease provide the journal ID, volume, and issue number. ')
+  
+    journal_url_list = ['https://link.springer.com/journal/40593/23/1', 'https://link.springer.com/journal/40593/24/1', 'https://link.springer.com/journal/40593/24/2', 'https://link.springer.com/journal/40593/24/3', 'https://link.springer.com/journal/40593/24/4']
     
-    journal_id = input('Journal ID: ')
-    volume = input('Volume: ')
-    issue = input('Issue: ')
+    for journal_url in journal_url_list:
+        journal_page = requests.get(journal_url)
+        soup = BeautifulSoup(journal_page.text, 'html.parser')
+        links = soup.find_all(attrs={"data-track-action":"clicked article"})
     
-    journal_url = 'https://link.springer.com/journal/' + journal_id + '/' + volume + '/' + issue
-    
-    print('Mining papers and citations. The papers are on https://link.springer.com/journal/' + journal_id + '/' + volume + '/' + issue)
-    
-    journal_page = requests.get(journal_url)
-    soup = BeautifulSoup(journal_page.text, 'html.parser')
-    links = soup.select('#kb-nav--main div.toc ol li div h3 a')
+        for a in links:
+            href = a['href']
+            save_json_springer(href)
+            get_ris_springer(href)    
 
-    for a in links:
-        href = a['href']
-        save_json_springer(href)
-        get_ris_springer(href)
-    
     print('End of the program. \nAll successfully obtained ris files have stored in \"springer-citations\" folder. ')

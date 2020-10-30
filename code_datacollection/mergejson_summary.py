@@ -7,7 +7,7 @@ Created on Wed Aug 19 04:17:58 2020
 import os
 import json
 
-path = "../data/iaied/"
+path = "../../data/JAIED_20132020/iaied_journal_json_20-3_/"
 
 result = []
 for file in os.listdir(path):
@@ -15,5 +15,5 @@ for file in os.listdir(path):
         name = file
         data = json.load(infile)
         result.append({"name" : name, "data" : data})
-with open("data/json_summary.json", "w") as outfile:
+with open("../../data/JAIED_20132020/iaied_journal_json_1320_subsummary.json", "w") as outfile:
     json.dump(result, outfile)
