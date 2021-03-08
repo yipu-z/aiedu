@@ -25,3 +25,23 @@
 [Updated] `jsontocsv.R` & `jsontocsv_summary.R` - Convert JSON file, which contains paper info, to CSV file. The output of jsontocsv.R is a folder with separate csv files. The output of jsontocsv_summary.R is a `summary.csv` containing all information in one csv file.   
 [Updated] `springerminer.py` & `run.py` - Extract author, abstract, RIS, and more paper information from Springer  
 [Updated] `paperminer.py` - Extract abstracts from IAIED  
+
+## 03/08/2021 - Jie Chen
+### Data Collection
+`extract_htmlinfo_tojson.py` - Extract journal and conference data from Springer in json format
+`get_paper_links.py` - Get Springer conference/journal links
+`miner_lak_journal_web.py` - Get LAK journal citations, web version.
+`springerminer.api.py` - Get Springer metadata by using API. 
+`tandf_requests.py` - Use requests to get Journal of Learning Sciences reference download links.
+### Keyword Analysis
+`keyword_process.py` - Process json data for getting keywords, then process keywords and generate NLP table, keyword frequency table and common keyword table. 
+`keyword_process_copyforbib.py` - Process bib data, and generate same tables as above. 
+`lak_title_keyword.py` - Same as above but generate one more article title and keyword table. 
+### Other Analysis
+`find_affiliation.py` - Extract authors' affiliations by educational institutions and non-educational institutions. The output is two json files by ed and non-ed. 
+`recommender.py` - Recommend papers by abstracts using tfidf and consine similarities. 
+`ngram_model.py` - Get n-gram from abstract and see frequency. 
+`refulate_data.py` - Get all author names and regulate name data through observation and checking their last name.
+`sna_1002.py` - Get unique author names and then generate the relationship graphs. 
+`text_process.py` - many useful functions for finding adhesive words or sentence. 
+
