@@ -11,6 +11,20 @@ import re
 import os
 from os import listdir
 
+"""
+Input: html file
+Output: json file
+"""
+
+"""
+from html format file, which is retrieved from Springer Conference paper, 
+     output json content: 
+     article_title, author, conf_title, conf_acronym, publication_year, book_title, page_num_info,
+     keywords, citation, abstract
+"""
+
+# get conference data from Springer as json format
+
 def get_json_springer_conf(filename):
     with open(filename, encoding='utf8') as file:
         html_text = unicodedata.normalize("NFKD", file.read())
@@ -87,6 +101,8 @@ def get_json_springer_conf(filename):
     
     return jsondata
 
+# get journal data from springer as json format
+
 def get_json_springer_jour(filename):
     
     with open(filename, encoding='utf8') as file:
@@ -135,6 +151,8 @@ def get_json_springer_jour(filename):
     
     jsondata = json.dumps(data)
     return jsondata
+
+# Save file as json format from Springer
 
 def save_json_springer(filename_input, filename_output):
     

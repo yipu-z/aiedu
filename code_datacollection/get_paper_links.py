@@ -8,6 +8,8 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
+# Get journal paper links
+
 def get_journal_paper_links():
     page = requests.get("https://link.springer.com/journal/40593/volumes-and-issues")
     soup = BeautifulSoup(page.text, 'html.parser')
@@ -24,6 +26,8 @@ def get_journal_paper_links():
     store_paper_links = [l + "\n" for l in all_paper_links]
     with open('journal-paper-links.txt', 'w') as file:
         file.writelines(store_paper_links)
+
+# Conference paper links
 
 def get_conference_paper_links():
     paper_links = []

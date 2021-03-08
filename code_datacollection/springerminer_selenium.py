@@ -62,7 +62,7 @@ def get_book_html(url):
     
     return paper_links
 
-def get_paper_html(url)：:
+def get_paper_html(url):
     driver.get(url)
     html = driver.page_source
     with open("paper.html", "w", encoding="utf-8") as file:

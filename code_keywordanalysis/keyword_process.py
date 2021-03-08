@@ -75,8 +75,12 @@ nlp = en_core_web_sm.load()
 lemmatizer = WordNetLemmatizer()
 stemmer = PorterStemmer()
 
+# Generate a dataframe for storing all types of NLP
+
 df3 = pd.DataFrame(columns = ['keyword', 'ent_text', 'ent_label', 'noun_text', 'noun_postag', 'lemm', 'stem', 'common_word'])
 df3['keyword'] = tempkeyword
+
+# find NER, nouns, lemm, and stem
 
 for k in tempkeyword:
     doc = nlp(k)
@@ -97,6 +101,7 @@ for k in tempkeyword:
     for w in k.replace("-", " ").split():
         wordset.append(w)
 
+# Count keyword frequency
 wordset_counter = Counter(wordset)
 wordset_large = Counter(el for el in wordset_counter.elements() if wordset_counter[el] >= 10)
 great_words = [k for k,c in wordset_large.items()]
@@ -104,12 +109,14 @@ great_words.remove('in')
 great_words.remove('to')
 great_words.remove('of')
 
+# Save keyword frequency to a dataframe and an excel
 df_wordset = pd.DataFrame.from_dict(dict(wordset_counter), orient = 'index')
 writer = pd.ExcelWriter('../data/wordset.xlsx')
 df_wordset.to_excel(writer, index=True)
 writer.save()
 writer.close()
 
+# Sort and find common keywords
 for k in tempkeyword:
     for g in great_words:
         if g in k:
