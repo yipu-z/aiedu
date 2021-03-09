@@ -24,6 +24,7 @@ with open(path, "r") as file:
 
 if jd != "":
     jd_data = [d['data'] for d in jd]
+    
     jd_auth = [a['author'] for a in jd_data]
     
     # get author names within institutions
@@ -83,4 +84,4 @@ if jd != "":
     for t in all_relation:
         relation_matrix[t[0]][t[1]] += 1
         relation_matrix[t[1]][t[0]] += 1
-    relation_matrix.to_csv("data/sna_table.csv")
+    #relation_matrix.to_csv("data/sna_table_1920.csv")
